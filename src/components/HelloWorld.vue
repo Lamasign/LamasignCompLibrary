@@ -1,5 +1,4 @@
 <template>
-
   <div
     flex-col
     justify-between
@@ -7,7 +6,6 @@
     justify-items-center
   >
     <div class="w-full flex justify-center items-center">
-
       <BButton variant="warning">BUTTON</BButton>
       <BButton variant="danger">BUTTON</BButton>
       <BButton variant="success">BUTTON</BButton>

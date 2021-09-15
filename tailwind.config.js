@@ -2,7 +2,7 @@ const colors = require('tailwindcss/colors')
 
 /** @type {import("@types/tailwindcss/tailwind-config").TailwindConfig } */
 module.exports = {
-  purge: { content: ['./public/**/*.html', './src/**/*.vue'] },
+  purge: { content: ['./public/**/*.html', './src/**/*.vue', './src/**/*.ts'] },
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {

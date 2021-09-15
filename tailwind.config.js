@@ -17,31 +17,26 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
 
-      black: colors.black,
+      black: '#1e1e1c',
       white: {
-        default: '#FFFFFF',
+        light: '#F3F6F3',
+        DEFAULT: '#FFFFFF',
         break: '#F6EFE6',
       },
       gray: {
-        ligth: 'C4C4C4',
-        default: colors.coolGray,
+        light: '#C4C4C4',
+        DEFAULT: colors.coolGray,
       },
       red: {
-        DEFAULT: '#EB535F',
+        DEFAULT: '#E73047',
+        light: '#EA535E',
       },
       yellow: colors.amber,
-      green: {
-        DEFAULT: '#58B169',
-      },
-      orange: {
-        DEFAULT: '#EF7E49',
-      },
-      blue: colors.blue,
+      green: '#58B169',
+      orange: '#EF7E49',
+      blue: '#453D91',
       indigo: colors.indigo,
-      purple: {
-        default: colors.violet,
-        dark: '#4835A3',
-      },
+      purple: '#4835A3',
       pink: colors.pink,
     },
     spacing: {

@@ -6,11 +6,11 @@
     justify-items-center
   >
     <div class="w-full flex justify-center items-center">
-      <BButton variant="warning">BUTTON</BButton>
-      <BButton variant="danger">BUTTON</BButton>
-      <BButton variant="success">BUTTON</BButton>
-      <BButton variant="promotion">BUTTON</BButton>
-      <BButton variant="primary">BUTTON</BButton>
+      <BButton variant="warning">warning</BButton>
+      <BButton variant="danger">danger</BButton>
+      <BButton variant="success">success</BButton>
+      <BButton variant="promotion">promo</BButton>
+      <BButton variant="primary">primary</BButton>
     </div>
 
     <div class="w-full flex justify-around items-center">

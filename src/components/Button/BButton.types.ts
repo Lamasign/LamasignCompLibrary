@@ -53,15 +53,15 @@ export const ButtonSizesMap: ButtonSizesMap = {
 }
 
 export const ButtonVariantsMap: ButtonVariantsMap = {
-	primary: 'bg-black text-white font-normal hover:bg-black-dark focus:ring-4 ring-black',
+	primary: 'bg-blue text-white font-normal hover:bg-blue-dark focus:ring-4 ring-blue',
 	warning: 'bg-orange text-white hover:bg-orange-dark focus:ring-4 ring-orange',
-	danger: 'bg-red text-white hover:bg-red-dark focus:ring-4 ring-red',
+	danger: 'bg-red text-black hover:text-white hover:bg-red-light focus:ring-4 ring-red',
 	success: 'bg-green text-white hover:bg-green-dark focus:ring-4 ring-green',
 	promotion: 'bg-purple text-white hover:text-white hover:bg-purple-dark focus:ring-4 ring-purple'
 }
 
 export const ButtonDisabledClassesMap: ButtonVariantsMap = {
-	primary: 'bg-black/50 text-white',
+	primary: 'bg-blue/50 text-white',
 	warning: 'bg-orange/50 text-white',
 	danger: 'bg-red/50 text-white',
 	success: 'bg-green/50 text-white',
@@ -69,15 +69,15 @@ export const ButtonDisabledClassesMap: ButtonVariantsMap = {
 }
 
 export const ButtonOutlinedClassesMap: ButtonVariantsMap = {
-	primary: 'bg-white text-black border border-black hover:border-black-dark hover:text-black-dark focus:ring-4 ring-black',
+	primary: 'bg-white text-blue border border-blue hover:border-blue-dark hover:text-blue-dark focus:ring-4 ring-blue',
 	warning: 'bg-white text-orange border border-orange hover:border-orange-dark hover:text-orange-dark focus:ring-4 ring-orange',
-	danger: 'bg-white text-red border border-red hover:border-red-dark hover:text-red-dark focus:ring-4 ring-red',
+	danger: 'bg-white text-red border border-red hover:border-red-light hover:text-red-light focus:ring-4 ring-red',
 	success: 'bg-white text-green border border-green hover:border-green-dark hover:text-green-dark focus:ring-4 ring-green',
 	promotion: 'bg-white text-purple border border-purple hover:border-purple-dark hover:text-purple-dark focus:ring-4 ring-purple'
 }
 
 export const ButtonOutlinedAndDisabledClassesMap: ButtonVariantsMap = {
-	primary: 'bg-white text-black/50 border border-black/50',
+	primary: 'bg-white text-blue/50 border border-blue/50',
 	warning: 'bg-white text-orange/50 border border-orange/50',
 	danger: 'bg-white text-red/50 border border-red/50',
 	success: 'bg-white text-green/50 border border-green/50',

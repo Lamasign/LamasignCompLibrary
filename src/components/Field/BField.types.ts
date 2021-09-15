@@ -20,14 +20,14 @@ const commonClasses = 'mt-1'
 const commonLabelClasses = 'block mb-2 text-lg font-bold'
 
 export const FieldMessageStatusesClassesMap: FieldStatusesClassesMap = {
-	default: `${commonClasses} text-turquoise`,
+	default: `${commonClasses} text-blue`,
 	error: `${commonClasses} text-red`,
 	success: `${commonClasses} text-green`,
 	warning: `${commonClasses} text-orange`
 }
 
 export const LabelStatusClassesMap: FieldStatusesClassesMap = {
-	default: `${commonLabelClasses} text-turquoise`,
+	default: `${commonLabelClasses} text-blue`,
 	error: `${commonLabelClasses} text-red`,
 	success: `${commonLabelClasses} text-green`,
 	warning: `${commonLabelClasses} text-orange`

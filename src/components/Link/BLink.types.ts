@@ -27,7 +27,7 @@ export const LinkTagsArray = Object.values(LinkTagsEnum).map(variant => variant)
 const commonClasses = 'underline cursor-pointer disabled:cursor-not-allowed'
 
 export const LinkVariantsMap: LinkVariantsMap = {
-	primary: `${commonClasses} text-black hover:text-black-dark focus:ring-4 ring-black`,
+	primary: `${commonClasses} text-blue hover:text-blue-dark focus:ring-4 ring-blue`,
 	warning: `${commonClasses} text-orange hover:text-orange-dark focus:ring-4 ring-orange`,
 	danger: `${commonClasses} text-red hover:text-red-dark focus:ring-4 ring-red`,
 	success: `${commonClasses} text-green hover:text-green-dark focus:ring-4 ring-green`,
@@ -35,7 +35,7 @@ export const LinkVariantsMap: LinkVariantsMap = {
 }
 
 export const LinkDisabledClassesMap: LinkVariantsMap = {
-	primary: `${commonClasses} text-black/50`,
+	primary: `${commonClasses} text-blue/50`,
 	warning: `${commonClasses} text-orange/50`,
 	danger: `${commonClasses} text-red/50`,
 	success: `${commonClasses} text-green/50`,

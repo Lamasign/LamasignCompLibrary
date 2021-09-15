@@ -5,7 +5,7 @@
     h-full
     justify-items-center
   >
-    <div class="w-full flex justify-center items-center">
+    <!-- <div class="w-full flex justify-center items-center">
       <BButton variant="warning">warning</BButton>
       <BButton variant="danger">danger</BButton>
       <BButton variant="success">success</BButton>
@@ -129,13 +129,40 @@
       <BTag variant="danger">Im a danger tag</BTag>
       <BTag variant="warning">Im a warning tag</BTag>
       <BTag>Im a tag</BTag>
+    </div> -->
+
+    <div class="w-full flex justify-center items-center">
+      <BCheckbox
+        variant="promotion"
+        label="test"
+        v-model="test"
+      />
+      <BCheckbox
+        variant="success"
+        label="test"
+        v-model="test"
+      />
+      <BCheckbox
+        variant="danger"
+        label="test"
+        v-model="test"
+      />
+      <BCheckbox
+        variant="warning"
+        label="test"
+        v-model="test"
+      />
+      <BCheckbox
+        label="test"
+        v-model="test"
+      />
     </div>
 
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api'
+import { defineComponent, ref } from '@vue/composition-api'
 import BButton from '@/components/Button/BButton.vue'
 import BLink from './Link/BLink.vue'
 import BInput from '@/components/Input/BInput.vue'
@@ -143,6 +170,7 @@ import BField from '@/components/Field/BField.vue'
 import BMessage from './Message/BMessage.vue'
 import BNumberInput from '@/components/NumberInput/BNumberInput.vue'
 import BTag from '@/components/Tag/BTag.vue'
+import BCheckbox from './Checkbox/BCheckbox.vue'
 
 export default defineComponent({
   components: {
@@ -153,7 +181,15 @@ export default defineComponent({
     BMessage,
     BNumberInput,
     BTag,
+    BCheckbox,
   },
-  name: 'App'
+  name: 'App',
+  setup() {
+    const test = ref(false)
+
+    return {
+      test
+    }
+  }
 })
 </script>

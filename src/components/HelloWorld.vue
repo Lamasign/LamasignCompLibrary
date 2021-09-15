@@ -86,6 +86,43 @@
       <BMessage variant="primary">primary</BMessage>
     </div>
 
+    <div class="w-full flex justify-center items-center">
+      <BField
+        status="success"
+        class="flex flex-col space-y-8"
+        label="My awesome label"
+        message="valid"
+      >
+        <BNumberInput
+          variant="success"
+          value="1"
+        />
+      </BField>
+
+      <BField
+        status="error"
+        class="flex flex-col space-y-8"
+        label="My awesome label"
+        message="not valid"
+      >
+        <BNumberInput
+          variant="error"
+          valur="1"
+        />
+      </BField>
+      <BField
+        status="warning"
+        class="flex flex-col space-y-8"
+        label="My awesome label"
+        message="not valid"
+      >
+        <BNumberInput
+          variant="warning"
+          valur="1"
+        />
+      </BField>
+    </div>
+
   </div>
 </template>
 
@@ -96,6 +133,7 @@ import BLink from './Link/BLink.vue'
 import BInput from '@/components/Input/BInput.vue'
 import BField from '@/components/Field/BField.vue'
 import BMessage from './Message/BMessage.vue'
+import BNumberInput from '@/components/NumberInput/BNumberInput.vue'
 
 export default defineComponent({
   components: {
@@ -104,6 +142,7 @@ export default defineComponent({
     BField,
     BLink,
     BMessage,
+    BNumberInput,
   },
   name: 'App'
 })

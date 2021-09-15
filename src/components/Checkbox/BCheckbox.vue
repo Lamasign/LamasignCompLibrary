@@ -4,6 +4,7 @@
       :class="classes"
       type="checkbox"
       :checked="value"
+      :disabled="disabled"
       @input="(event) => $emit('input', event.target.checked)"
     />
     <label class="flex flex-row items-center font-bold cursor-pointer text">
@@ -35,6 +36,10 @@ export default defineComponent({
     label: {
       type: String,
       default: '',
+    },
+    disabled: {
+      type: Boolean,
+      default: false,
     },
   },
   setup(props) {

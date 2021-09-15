@@ -1,4 +1,5 @@
 <template>
+
   <div
     flex-col
     justify-between
@@ -6,13 +7,24 @@
     justify-items-center
   >
     <div class="w-full flex justify-center items-center">
+
       <BButton variant="warning">BUTTON</BButton>
       <BButton variant="danger">BUTTON</BButton>
       <BButton variant="success">BUTTON</BButton>
       <BButton variant="promotion">BUTTON</BButton>
       <BButton variant="primary">BUTTON</BButton>
     </div>
-    <div class="w-full flex justify-center items-center">
+
+    <div class="w-full flex justify-around items-center">
+      <BLink>Link</BLink>
+      <BLink variant="warning">Link</BLink>
+      <BLink variant="danger">Link</BLink>
+      <BLink variant="success">Link</BLink>
+      <BLink variant="promotion">Link</BLink>
+      <BLink variant="primary">Link</BLink>
+    </div>
+
+    <div class="w-full flex justify-around items-center">
       <BInput
         type="text"
         value="text"
@@ -73,6 +85,7 @@
 <script lang="ts">
 import { defineComponent } from '@vue/composition-api'
 import BButton from '@/components/Button/BButton.vue'
+import BLink from './Link/BLink.vue'
 import BInput from '@/components/Input/BInput.vue'
 import BField from '@/components/Field/BField.vue'
 
@@ -81,6 +94,7 @@ export default defineComponent({
     BButton,
     BInput,
     BField,
+    BLink,
   },
   name: 'App'
 })

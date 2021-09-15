@@ -123,6 +123,14 @@
       </BField>
     </div>
 
+    <div class="w-full flex justify-center items-center">
+      <BTag variant="promotion">Im a promotion tag</BTag>
+      <BTag variant="success">Im a success tag</BTag>
+      <BTag variant="danger">Im a danger tag</BTag>
+      <BTag variant="warning">Im a warning tag</BTag>
+      <BTag>Im a tag</BTag>
+    </div>
+
   </div>
 </template>
 
@@ -134,6 +142,7 @@ import BInput from '@/components/Input/BInput.vue'
 import BField from '@/components/Field/BField.vue'
 import BMessage from './Message/BMessage.vue'
 import BNumberInput from '@/components/NumberInput/BNumberInput.vue'
+import BTag from '@/components/Tag/BTag.vue'
 
 export default defineComponent({
   components: {
@@ -143,6 +152,7 @@ export default defineComponent({
     BLink,
     BMessage,
     BNumberInput,
+    BTag,
   },
   name: 'App'
 })

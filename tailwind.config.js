@@ -39,7 +39,7 @@ module.exports = {
       blue: colors.blue,
       indigo: colors.indigo,
       purple: {
-        defualt: colors.violet,
+        default: colors.violet,
         dark: '#4835A3',
       },
       pink: colors.pink,

@@ -1,5 +1,6 @@
 const colors = require('tailwindcss/colors')
 
+/** @type {import("@types/tailwindcss/tailwind-config").TailwindConfig } */
 module.exports = {
   purge: { content: ['./public/**/*.html', './src/**/*.vue'] },
   presets: [],
@@ -17,14 +18,30 @@ module.exports = {
       current: 'currentColor',
 
       black: colors.black,
-      white: colors.white,
-      gray: colors.coolGray,
-      red: colors.red,
+      white: {
+        default: '#FFFFFF',
+        break: '#F6EFE6',
+      },
+      gray: {
+        ligth: 'C4C4C4',
+        default: colors.coolGray,
+      },
+      red: {
+        DEFAULT: '#EB535F',
+      },
       yellow: colors.amber,
-      green: colors.emerald,
+      green: {
+        DEFAULT: '#58B169',
+      },
+      orange: {
+        DEFAULT: '#EF7E49',
+      },
       blue: colors.blue,
       indigo: colors.indigo,
-      purple: colors.violet,
+      purple: {
+        defualt: colors.violet,
+        dark: '#4835A3',
+      },
       pink: colors.pink,
     },
     spacing: {

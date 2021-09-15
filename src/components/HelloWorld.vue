@@ -77,6 +77,15 @@
       </BField>
 
     </div>
+
+    <div class="w-full flex justify-center items-center">
+      <BMessage variant="warning">warning</BMessage>
+      <BMessage variant="danger">danger</BMessage>
+      <BMessage variant="success">success</BMessage>
+      <BMessage variant="promotion">promo</BMessage>
+      <BMessage variant="primary">primary</BMessage>
+    </div>
+
   </div>
 </template>
 
@@ -86,6 +95,7 @@ import BButton from '@/components/Button/BButton.vue'
 import BLink from './Link/BLink.vue'
 import BInput from '@/components/Input/BInput.vue'
 import BField from '@/components/Field/BField.vue'
+import BMessage from './Message/BMessage.vue'
 
 export default defineComponent({
   components: {
@@ -93,6 +103,7 @@ export default defineComponent({
     BInput,
     BField,
     BLink,
+    BMessage,
   },
   name: 'App'
 })

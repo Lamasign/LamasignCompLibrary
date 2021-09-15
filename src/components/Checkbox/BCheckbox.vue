@@ -2,6 +2,7 @@
   <div>
     <input
       :class="classes"
+      v-bind="$attrs"
       type="checkbox"
       :checked="value"
       :disabled="disabled"

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-import './assets/tailwind.css'
 import VueCompositionAPI from '@vue/composition-api'
+import './assets/tailwind.css'
 
 Vue.config.productionTip = false
 

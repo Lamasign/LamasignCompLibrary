@@ -137,7 +137,7 @@
         label="test"
         v-model="test"
       />
-      <BCheckbox
+      <!-- <BCheckbox
         variant="success"
         label="test"
         v-model="test"
@@ -155,8 +155,35 @@
       <BCheckbox
         label="test"
         v-model="test"
-      />
+      /> -->
     </div>
+
+    <BCardModal
+      :isActive="test"
+      @close="update"
+    >
+      <template #title>
+        <h3 class="text-3xl font-semibold">
+          Modal Title
+        </h3>
+      </template>
+      Now that we have the basic styling finished, let’s update the component to use a slot so the content of the modal can be configured where the component is used instead of inside the component. This will make the component much more reusable.
+      <template #footer>
+        <button
+          class="text-red-500 bg-transparent border border-solid border-red-500 hover:bg-red-500 hover:text-white active:bg-red-600 font-bold uppercase text-sm px-6 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+          type="button"
+        >
+          Close
+        </button>
+        <button
+          class="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+          type="button"
+        >
+          Save Changes
+        </button>
+
+      </template>
+    </BCardModal>
 
   </div>
 </template>
@@ -164,13 +191,14 @@
 <script lang="ts">
 import { defineComponent, ref } from '@vue/composition-api'
 import BButton from '@/components/Button/BButton.vue'
-import BLink from './Link/BLink.vue'
+import BLink from '@/components/Link/BLink.vue'
 import BInput from '@/components/Input/BInput.vue'
 import BField from '@/components/Field/BField.vue'
-import BMessage from './Message/BMessage.vue'
+import BMessage from '@/components/Message/BMessage.vue'
 import BNumberInput from '@/components/NumberInput/BNumberInput.vue'
 import BTag from '@/components/Tag/BTag.vue'
-import BCheckbox from './Checkbox/BCheckbox.vue'
+import BCheckbox from '@/components/Checkbox/BCheckbox.vue'
+import BCardModal from '@/components/CardModal/BCardModal.vue'
 
 export default defineComponent({
   components: {
@@ -182,13 +210,18 @@ export default defineComponent({
     BNumberInput,
     BTag,
     BCheckbox,
+    BCardModal,
   },
   name: 'App',
   setup() {
-    const test = ref(false)
+    const test = ref(true)
+    const update = (val: boolean) => {
+      test.value = val
+    }
 
     return {
-      test
+      test,
+      update,
     }
   }
 })

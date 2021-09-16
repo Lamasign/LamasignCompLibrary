@@ -132,30 +132,32 @@
     </div> -->
 
     <div class="w-full flex justify-center items-center">
-      <BCheckbox
-        variant="promotion"
-        label="test"
-        v-model="test"
-      />
-      <!-- <BCheckbox
-        variant="success"
-        label="test"
-        v-model="test"
-      />
-      <BCheckbox
-        variant="danger"
-        label="test"
-        v-model="test"
-      />
-      <BCheckbox
-        variant="warning"
-        label="test"
-        v-model="test"
-      />
-      <BCheckbox
-        label="test"
-        v-model="test"
-      /> -->
+      <BAccordion
+        title="test accordéon"
+        :isOpen="test"
+      >
+        <div class="w-full flex justify-center items-center">
+          <BCheckbox
+            variant="success"
+            label="test"
+            v-model="test"
+          />
+          <BCheckbox
+            variant="danger"
+            label="test"
+            v-model="test"
+          />
+          <BCheckbox
+            variant="warning"
+            label="test"
+            v-model="test"
+          />
+          <BCheckbox
+            label="test"
+            v-model="test"
+          />
+        </div>
+      </BAccordion>
     </div>
 
     <BCardModal
@@ -199,6 +201,7 @@ import BNumberInput from '@/components/NumberInput/BNumberInput.vue'
 import BTag from '@/components/Tag/BTag.vue'
 import BCheckbox from '@/components/Checkbox/BCheckbox.vue'
 import BCardModal from '@/components/CardModal/BCardModal.vue'
+import BAccordion from '@/components/accordion/BAccordion.vue'
 
 export default defineComponent({
   components: {
@@ -211,6 +214,7 @@ export default defineComponent({
     BTag,
     BCheckbox,
     BCardModal,
+    BAccordion,
   },
   name: 'App',
   setup() {

@@ -214,8 +214,12 @@
       </template>
     </BCardModal> -->
 
-    <div class="w-full flex justify-center items-center">
+    <!-- <div class="w-full flex justify-center items-center">
       <BToast :isToastOpen="test" />
+    </div> -->
+
+    <div class="w-full flex justify-center items-center">
+      <Dropdown title="dropdown" />
     </div>
 
   </div>
@@ -234,6 +238,7 @@ import BToast from '@/components/Toast/BToast.vue'
 import BCheckbox from '@/components/Checkbox/BCheckbox.vue'
 import BCardModal from '@/components/CardModal/BCardModal.vue'
 import BAccordion from '@/components/accordion/BAccordion.vue'
+import Dropdown from '@/components/Dropdown/BDropdown.vue'
 
 export default defineComponent({
   components: {
@@ -248,6 +253,7 @@ export default defineComponent({
     BToast,
     BCardModal,
     BAccordion,
+    Dropdown,
   },
   name: 'App',
   setup() {

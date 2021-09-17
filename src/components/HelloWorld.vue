@@ -218,8 +218,12 @@
       <BToast :isToastOpen="test" />
     </div> -->
 
+    <!-- <div class="w-full flex justify-center items-center">
+      <BDropdown title="dropdown" />
+    </div> -->
+
     <div class="w-full flex justify-center items-center">
-      <Dropdown title="dropdown" />
+      <BProgressBar />
     </div>
 
   </div>
@@ -227,33 +231,35 @@
 
 <script lang="ts">
 import { defineComponent, ref } from '@vue/composition-api'
+import BAccordion from '@/components/accordion/BAccordion.vue'
 import BButton from '@/components/Button/BButton.vue'
-import BLink from '@/components/Link/BLink.vue'
-import BInput from '@/components/Input/BInput.vue'
+import BCardModal from '@/components/CardModal/BCardModal.vue'
+import BCheckbox from '@/components/Checkbox/BCheckbox.vue'
+import BDropdown from '@/components/Dropdown/BDropdown.vue'
 import BField from '@/components/Field/BField.vue'
+import BInput from '@/components/Input/BInput.vue'
+import BLink from '@/components/Link/BLink.vue'
 import BMessage from '@/components/Message/BMessage.vue'
 import BNumberInput from '@/components/NumberInput/BNumberInput.vue'
+import BProgressBar from '@/components/ProgressBar/BProgressBar.vue'
 import BTag from '@/components/Tag/BTag.vue'
 import BToast from '@/components/Toast/BToast.vue'
-import BCheckbox from '@/components/Checkbox/BCheckbox.vue'
-import BCardModal from '@/components/CardModal/BCardModal.vue'
-import BAccordion from '@/components/accordion/BAccordion.vue'
-import Dropdown from '@/components/Dropdown/BDropdown.vue'
 
 export default defineComponent({
   components: {
+    BAccordion,
     BButton,
-    BInput,
+    BCardModal,
+    BCheckbox,
+    BDropdown,
     BField,
+    BInput,
     BLink,
     BMessage,
     BNumberInput,
+    BProgressBar,
     BTag,
-    BCheckbox,
     BToast,
-    BCardModal,
-    BAccordion,
-    Dropdown,
   },
   name: 'App',
   setup() {

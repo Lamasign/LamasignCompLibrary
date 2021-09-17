@@ -19,3 +19,21 @@ export const DropdownVariantsMap: DropdownVariantsMap = {
 	danger: `${commonClasses} bg-red text-black hover:text-white hover:bg-red-light ring-red`,
 	success: `${commonClasses} bg-green text-white hover:bg-green-dark ring-green`,
 }
+
+export enum DropdownDirectionEnum {
+	LEFT = 'left',
+	RIGHT = 'right',
+	TOP = 'top',
+	BOTTOM = 'bottom',
+}
+
+export type DropdownDirectionMap = {
+	[key in DropdownDirectionEnum]: string
+}
+
+export const DropdownDirectionMap: DropdownDirectionMap = {
+	left: '',
+	right: '',
+	top: '',
+	bottom: '',
+}

@@ -43,7 +43,7 @@ export default defineComponent({
     title: {
       type: String,
       required: true,
-    }
+    },
   },
   setup(props, { emit }) {
     const dropdownPopoverShow = ref(false)

@@ -48,8 +48,8 @@ export type ButtonSizesMap = {
 const commonClasses = 'uppercase rounded cursor-pointer disabled:cursor-not-allowed'
 
 export const ButtonSizesMap: ButtonSizesMap = {
-	default: `title-3 p-12 ${commonClasses}`,
-	small: `title-4 p-8 ${commonClasses}`
+	default: `title-3 p-3 ${commonClasses}`,
+	small: `title-4 p-2 ${commonClasses}`
 }
 
 export const ButtonVariantsMap: ButtonVariantsMap = {

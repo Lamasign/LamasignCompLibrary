@@ -30,10 +30,3 @@ export enum DropdownDirectionEnum {
 export type DropdownDirectionMap = {
 	[key in DropdownDirectionEnum]: string
 }
-
-export const DropdownDirectionMap: DropdownDirectionMap = {
-	left: '',
-	right: '',
-	top: '',
-	bottom: '',
-}

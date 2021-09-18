@@ -1,5 +1,5 @@
 import { ButtonSizesEnum, ButtonTypesArray, ButtonVariantsArray } from './../../src/components/Button/BButton.types'
-import BButton from '../../src/components/Button/BButton.vue'
+import BButton from '@/components/Button/BButton.vue'
 import { mount } from "@vue/test-utils"
 import { createWrapper } from './utils'
 

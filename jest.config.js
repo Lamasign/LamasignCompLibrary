@@ -12,7 +12,8 @@ module.exports = {
     "!tailwind.config.js",
     "!block-navigation.js",
     "!prettify.js",
-    "!sorter.js"
+    "!sorter.js",
+    "!main.ts"
   ],
 }
 

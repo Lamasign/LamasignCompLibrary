@@ -3,7 +3,7 @@
     :class="classes"
     class="border-2 p-2 rounded mt-2"
   >
-    <div @click="click">{{ title }}</div>
+    <button @click="click">{{ title }}</button>
     <div
       class="mt-4 border-2 p-2 rounded"
       :class="isAccordionOpen ? 'd-block' : 'hidden'"

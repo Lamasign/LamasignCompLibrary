@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BAccordion.vue renders the right classes based on prop called "variant" 1`] = `
+<div
+  class="border-2 p-2 rounded mt-2 bg-white text-dark hover:bg-blue-dark rounded cursor-pointer"
+>
+  <button>
+    
+  </button>
+   
+  <div
+    class="mt-4 border-2 p-2 rounded hidden"
+  />
+</div>
+`;
+
+exports[`BAccordion.vue renders the right classes based on prop called "variant" 2`] = `
+<div
+  class="border-2 p-2 rounded mt-2 bg-white text-dark hover:bg-blue-dark rounded cursor-pointer"
+>
+  <button>
+    
+  </button>
+   
+  <div
+    class="mt-4 border-2 p-2 rounded hidden"
+  />
+</div>
+`;
+
+exports[`BAccordion.vue renders the right classes based on prop called "variant" 3`] = `
+<div
+  class="border-2 p-2 rounded mt-2 bg-orange text-white hover:bg-orange-dark rounded cursor-pointer"
+>
+  <button>
+    
+  </button>
+   
+  <div
+    class="mt-4 border-2 p-2 rounded hidden"
+  />
+</div>
+`;
+
+exports[`BAccordion.vue renders the right classes based on prop called "variant" 4`] = `
+<div
+  class="border-2 p-2 rounded mt-2 bg-red text-white hover:bg-red-dark rounded cursor-pointer"
+>
+  <button>
+    
+  </button>
+   
+  <div
+    class="mt-4 border-2 p-2 rounded hidden"
+  />
+</div>
+`;
+
+exports[`BAccordion.vue renders the right classes based on prop called "variant" 5`] = `
+<div
+  class="border-2 p-2 rounded mt-2 bg-green text-white hover:bg-green-dark rounded cursor-pointer"
+>
+  <button>
+    
+  </button>
+   
+  <div
+    class="mt-4 border-2 p-2 rounded hidden"
+  />
+</div>
+`;

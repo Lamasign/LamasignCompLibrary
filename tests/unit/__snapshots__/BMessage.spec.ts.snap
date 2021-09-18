@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BMessage.vue renders with the correct classes based on the "variant" prop 1`] = `
+<div
+  class="p-24 rounded bg-blue-light border border-blue text-blue-dark"
+/>
+`;
+
+exports[`BMessage.vue renders with the correct classes based on the "variant" prop 2`] = `
+<div
+  class="p-24 rounded bg-blue-light border border-blue text-blue-dark"
+/>
+`;
+
+exports[`BMessage.vue renders with the correct classes based on the "variant" prop 3`] = `
+<div
+  class="p-24 rounded bg-orange-light border border-orange text-orange-dark"
+/>
+`;
+
+exports[`BMessage.vue renders with the correct classes based on the "variant" prop 4`] = `
+<div
+  class="p-24 rounded bg-red-light border border-red text-red-dark"
+/>
+`;
+
+exports[`BMessage.vue renders with the correct classes based on the "variant" prop 5`] = `
+<div
+  class="p-24 rounded bg-green-light border border-green text-green-dark"
+/>
+`;
+
+exports[`BMessage.vue renders with the correct classes based on the "variant" prop 6`] = `
+<div
+  class="p-24 rounded bg-violet-light border border-violet text-violet-dark"
+/>
+`;

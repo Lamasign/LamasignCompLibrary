@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test BCheckbox.vue render the appropritate classe based on the "variant" prop 1`] = `
+<div>
+  <input
+    class="text-black hover:bg-blue-dark"
+    type="checkbox"
+  />
+   
+  <label
+    class="flex flex-row items-center font-bold cursor-pointer text"
+  >
+    
+    
+  
+  </label>
+</div>
+`;
+
+exports[`Test BCheckbox.vue render the appropritate classe based on the "variant" prop 2`] = `
+<div>
+  <input
+    class="text-black hover:bg-blue-dark"
+    type="checkbox"
+  />
+   
+  <label
+    class="flex flex-row items-center font-bold cursor-pointer text"
+  >
+    
+    
+  
+  </label>
+</div>
+`;
+
+exports[`Test BCheckbox.vue render the appropritate classe based on the "variant" prop 3`] = `
+<div>
+  <input
+    class="text-black hover:bg-orange-dark"
+    type="checkbox"
+  />
+   
+  <label
+    class="flex flex-row items-center font-bold cursor-pointer text"
+  >
+    
+    
+  
+  </label>
+</div>
+`;
+
+exports[`Test BCheckbox.vue render the appropritate classe based on the "variant" prop 4`] = `
+<div>
+  <input
+    class="text-black hover:bg-red-dark"
+    type="checkbox"
+  />
+   
+  <label
+    class="flex flex-row items-center font-bold cursor-pointer text"
+  >
+    
+    
+  
+  </label>
+</div>
+`;
+
+exports[`Test BCheckbox.vue render the appropritate classe based on the "variant" prop 5`] = `
+<div>
+  <input
+    class="text-black hover:bg-green-dark"
+    type="checkbox"
+  />
+   
+  <label
+    class="flex flex-row items-center font-bold cursor-pointer text"
+  >
+    
+    
+  
+  </label>
+</div>
+`;
+
+exports[`Test BCheckbox.vue render the appropritate classe based on the "variant" prop 6`] = `
+<div>
+  <input
+    class="text-black hover:bg-violet-dark"
+    type="checkbox"
+  />
+   
+  <label
+    class="flex flex-row items-center font-bold cursor-pointer text"
+  >
+    
+    
+  
+  </label>
+</div>
+`;

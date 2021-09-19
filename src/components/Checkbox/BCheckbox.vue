@@ -32,7 +32,7 @@ export default defineComponent({
     },
     value: {
       type: Boolean,
-      required: true,
+      required: false,
     },
     label: {
       type: String,

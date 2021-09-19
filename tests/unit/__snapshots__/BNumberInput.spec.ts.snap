@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BNumberInput.vue Renders with the correct classes based on the value of the injected "Status" 1`] = `
+<div
+  class="inline-flex relative"
+>
+  <bbutton-stub
+    class="rounded-full"
+    size="default"
+    tag="button"
+    type="button"
+    variant="primary"
+  >
+    
+    -
+  
+  </bbutton-stub>
+   
+  <input
+    class="mx-8"
+    type="number"
+  />
+   
+  <bbutton-stub
+    class="rounded-full"
+    size="default"
+    tag="button"
+    type="button"
+    variant="primary"
+  >
+    
+    +
+  
+  </bbutton-stub>
+</div>
+`;
+
+exports[`BNumberInput.vue Renders with the correct classes based on the value of the injected "Status" 2`] = `
+<div
+  class="inline-flex relative"
+>
+  <button
+    class="rounded-full bg-blue text-white font-normal hover:bg-blue-dark focus:ring-4 ring-blue title-3 p-3 uppercase rounded cursor-pointer disabled:cursor-not-allowed"
+    type="button"
+  >
+    
+    -
+  
+  </button>
+   
+  <input
+    class="mx-8"
+    type="number"
+  />
+   
+  <button
+    class="rounded-full bg-blue text-white font-normal hover:bg-blue-dark focus:ring-4 ring-blue title-3 p-3 uppercase rounded cursor-pointer disabled:cursor-not-allowed"
+    type="button"
+  >
+    
+    +
+  
+  </button>
+</div>
+`;
+
+exports[`BNumberInput.vue Renders with the correct classes based on the value of the injected "Status" 3`] = `
+<div
+  class="inline-flex relative"
+>
+  <button
+    class="rounded-full bg-blue text-white font-normal hover:bg-blue-dark focus:ring-4 ring-blue title-3 p-3 uppercase rounded cursor-pointer disabled:cursor-not-allowed"
+    type="button"
+  >
+    
+    -
+  
+  </button>
+   
+  <input
+    class="mx-8"
+    type="number"
+  />
+   
+  <button
+    class="rounded-full bg-blue text-white font-normal hover:bg-blue-dark focus:ring-4 ring-blue title-3 p-3 uppercase rounded cursor-pointer disabled:cursor-not-allowed"
+    type="button"
+  >
+    
+    +
+  
+  </button>
+</div>
+`;
+
+exports[`BNumberInput.vue Renders with the correct classes based on the value of the injected "Status" 4`] = `
+<div
+  class="inline-flex relative"
+>
+  <button
+    class="rounded-full bg-blue text-white font-normal hover:bg-blue-dark focus:ring-4 ring-blue title-3 p-3 uppercase rounded cursor-pointer disabled:cursor-not-allowed"
+    type="button"
+  >
+    
+    -
+  
+  </button>
+   
+  <input
+    class="mx-8"
+    type="number"
+  />
+   
+  <button
+    class="rounded-full bg-blue text-white font-normal hover:bg-blue-dark focus:ring-4 ring-blue title-3 p-3 uppercase rounded cursor-pointer disabled:cursor-not-allowed"
+    type="button"
+  >
+    
+    +
+  
+  </button>
+</div>
+`;
+
+exports[`BNumberInput.vue Renders with the correct classes based on the value of the injected "Status" 5`] = `
+<div
+  class="inline-flex relative"
+>
+  <button
+    class="rounded-full bg-blue text-white font-normal hover:bg-blue-dark focus:ring-4 ring-blue title-3 p-3 uppercase rounded cursor-pointer disabled:cursor-not-allowed"
+    type="button"
+  >
+    
+    -
+  
+  </button>
+   
+  <input
+    class="mx-8"
+    type="number"
+  />
+   
+  <button
+    class="rounded-full bg-blue text-white font-normal hover:bg-blue-dark focus:ring-4 ring-blue title-3 p-3 uppercase rounded cursor-pointer disabled:cursor-not-allowed"
+    type="button"
+  >
+    
+    +
+  
+  </button>
+</div>
+`;

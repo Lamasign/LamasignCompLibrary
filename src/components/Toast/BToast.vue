@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="isActive"
-    class="px-6 py-4 border-0 rounded relative mb-4"
+    class="Toast px-6 py-4 border-0 rounded relative mb-4"
     :class="classes"
   >
     <span class="inline-block align-middle mr-8">

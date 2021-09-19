@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BTag.vue renders with the appropriate classes based on the "variant" prop 1`] = `
+<div
+  class="p-8 rounded bg-blue text-white hover:bg-blue-dark"
+/>
+`;
+
+exports[`BTag.vue renders with the appropriate classes based on the "variant" prop 2`] = `
+<div
+  class="p-8 rounded bg-blue text-white hover:bg-blue-dark"
+/>
+`;
+
+exports[`BTag.vue renders with the appropriate classes based on the "variant" prop 3`] = `
+<div
+  class="p-8 rounded bg-orange text-white hover:bg-orange-dark"
+/>
+`;
+
+exports[`BTag.vue renders with the appropriate classes based on the "variant" prop 4`] = `
+<div
+  class="p-8 rounded bg-red text-white hover:bg-red-dark"
+/>
+`;
+
+exports[`BTag.vue renders with the appropriate classes based on the "variant" prop 5`] = `
+<div
+  class="p-8 rounded bg-green text-white hover:bg-green-dark"
+/>
+`;
+
+exports[`BTag.vue renders with the appropriate classes based on the "variant" prop 6`] = `
+<div
+  class="p-8 rounded bg-violet text-white hover:bg-violet-dark"
+/>
+`;

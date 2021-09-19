@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BToast.vue it renders right classes from props called variant 1`] = `
+<div
+  class="Toast px-6 py-4 border-0 rounded relative mb-4 bg-blue text-white font-normal hover:bg-blue-dark focus:ring-4 ring-blue"
+>
+  <span
+    class="inline-block align-middle mr-8"
+  />
+   
+  <button
+    class="absolute bg-transparent text-2xl font-semibold leading-none right-0 top-0 mt-4 mr-6 outline-none focus:outline-none"
+  >
+    <span>
+      ×
+    </span>
+  </button>
+</div>
+`;
+
+exports[`BToast.vue it renders right classes from props called variant 2`] = `
+<div
+  class="Toast px-6 py-4 border-0 rounded relative mb-4 bg-blue text-white font-normal hover:bg-blue-dark focus:ring-4 ring-blue"
+>
+  <span
+    class="inline-block align-middle mr-8"
+  />
+   
+  <button
+    class="absolute bg-transparent text-2xl font-semibold leading-none right-0 top-0 mt-4 mr-6 outline-none focus:outline-none"
+  >
+    <span>
+      ×
+    </span>
+  </button>
+</div>
+`;
+
+exports[`BToast.vue it renders right classes from props called variant 3`] = `
+<div
+  class="Toast px-6 py-4 border-0 rounded relative mb-4 bg-orange text-white hover:bg-orange-dark focus:ring-4 ring-orange"
+>
+  <span
+    class="inline-block align-middle mr-8"
+  />
+   
+  <button
+    class="absolute bg-transparent text-2xl font-semibold leading-none right-0 top-0 mt-4 mr-6 outline-none focus:outline-none"
+  >
+    <span>
+      ×
+    </span>
+  </button>
+</div>
+`;
+
+exports[`BToast.vue it renders right classes from props called variant 4`] = `
+<div
+  class="Toast px-6 py-4 border-0 rounded relative mb-4 bg-red text-black hover:text-white hover:bg-red-light focus:ring-4 ring-red"
+>
+  <span
+    class="inline-block align-middle mr-8"
+  />
+   
+  <button
+    class="absolute bg-transparent text-2xl font-semibold leading-none right-0 top-0 mt-4 mr-6 outline-none focus:outline-none"
+  >
+    <span>
+      ×
+    </span>
+  </button>
+</div>
+`;
+
+exports[`BToast.vue it renders right classes from props called variant 5`] = `
+<div
+  class="Toast px-6 py-4 border-0 rounded relative mb-4 bg-green text-white hover:bg-green-dark focus:ring-4 ring-green"
+>
+  <span
+    class="inline-block align-middle mr-8"
+  />
+   
+  <button
+    class="absolute bg-transparent text-2xl font-semibold leading-none right-0 top-0 mt-4 mr-6 outline-none focus:outline-none"
+  >
+    <span>
+      ×
+    </span>
+  </button>
+</div>
+`;

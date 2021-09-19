@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BLink.vue renders with the appropriate classes based on the "disabled" prop 1`] = `
+<a
+  class="underline cursor-pointer disabled:cursor-not-allowed text-blue hover:text-blue-dark focus:ring-4 ring-blue"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "disabled" prop 2`] = `
+<a
+  aria-disabled="true"
+  class="underline cursor-pointer disabled:cursor-not-allowed text-blue/50"
+  disabled="disabled"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "disabled" prop 3`] = `
+<a
+  class="underline cursor-pointer disabled:cursor-not-allowed text-blue hover:text-blue-dark focus:ring-4 ring-blue"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "disabled" prop 4`] = `
+<a
+  class="underline cursor-pointer disabled:cursor-not-allowed text-orange hover:text-orange-dark focus:ring-4 ring-orange"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "disabled" prop 5`] = `
+<a
+  class="underline cursor-pointer disabled:cursor-not-allowed text-red hover:text-red-dark focus:ring-4 ring-red"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "disabled" prop 6`] = `
+<a
+  class="underline cursor-pointer disabled:cursor-not-allowed text-green hover:text-green-dark focus:ring-4 ring-green"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "disabled" prop 7`] = `
+<a
+  class="underline cursor-pointer disabled:cursor-not-allowed text-purple hover:text-purple-dark focus:ring-4 ring-purple"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "disabled" prop 8`] = `
+<a
+  aria-disabled="true"
+  class="underline cursor-pointer disabled:cursor-not-allowed text-blue/50"
+  disabled="disabled"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "disabled" prop 9`] = `
+<a
+  aria-disabled="true"
+  class="underline cursor-pointer disabled:cursor-not-allowed text-orange/50"
+  disabled="disabled"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "disabled" prop 10`] = `
+<a
+  aria-disabled="true"
+  class="underline cursor-pointer disabled:cursor-not-allowed text-red/50"
+  disabled="disabled"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "disabled" prop 11`] = `
+<a
+  aria-disabled="true"
+  class="underline cursor-pointer disabled:cursor-not-allowed text-green/50"
+  disabled="disabled"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "disabled" prop 12`] = `
+<a
+  aria-disabled="true"
+  class="underline cursor-pointer disabled:cursor-not-allowed text-purple/50"
+  disabled="disabled"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "variant" prop 1`] = `
+<a
+  class="underline cursor-pointer disabled:cursor-not-allowed text-blue hover:text-blue-dark focus:ring-4 ring-blue"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "variant" prop 2`] = `
+<a
+  class="underline cursor-pointer disabled:cursor-not-allowed text-blue hover:text-blue-dark focus:ring-4 ring-blue"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "variant" prop 3`] = `
+<a
+  class="underline cursor-pointer disabled:cursor-not-allowed text-orange hover:text-orange-dark focus:ring-4 ring-orange"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "variant" prop 4`] = `
+<a
+  class="underline cursor-pointer disabled:cursor-not-allowed text-red hover:text-red-dark focus:ring-4 ring-red"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "variant" prop 5`] = `
+<a
+  class="underline cursor-pointer disabled:cursor-not-allowed text-green hover:text-green-dark focus:ring-4 ring-green"
+/>
+`;
+
+exports[`BLink.vue renders with the appropriate classes based on the "variant" prop 6`] = `
+<a
+  class="underline cursor-pointer disabled:cursor-not-allowed text-purple hover:text-purple-dark focus:ring-4 ring-purple"
+/>
+`;

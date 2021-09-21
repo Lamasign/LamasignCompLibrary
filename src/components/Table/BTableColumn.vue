@@ -2,7 +2,7 @@
   <div>
     <thead>
       <tr>
-        <th class="bg-blue-light border text-center px-8 py-4">{{ label }}</th>
+        <th :class="classes">{{ label }}</th>
       </tr>
     </thead>
     <tbody>
@@ -21,7 +21,8 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api'
+import { defineComponent, PropType, computed } from '@vue/composition-api'
+import { TableColumnVariantsEnum, TableColumnVariantsArray, TableColumnHeaderVariantsMap } from '@/components/Table/BTable.types'
 
 export default defineComponent({
   name: 'BTableColumn',
@@ -34,6 +35,18 @@ export default defineComponent({
       type: Array,
       default: () => [],
     },
+    variant: {
+      type: String as PropType<TableColumnVariantsEnum>,
+      default: TableColumnVariantsEnum.PRIMARY,
+      validator: (prop: TableColumnVariantsEnum) => TableColumnVariantsArray.includes(prop)
+    },
   },
+  setup(props) {
+    const classes = computed(() => TableColumnHeaderVariantsMap[props.variant])
+
+    return {
+      classes
+    }
+  }
 })
 </script>

@@ -234,6 +234,7 @@
         </BTableColumn>
         <BTableColumn
           :data="list"
+          variant="success"
           label="nom"
         >
           <template v-slot="{ item }">
@@ -257,37 +258,37 @@
 
 <script lang="ts">
 import { defineComponent, ref } from '@vue/composition-api'
+import BAccordion from '@/components/accordion/BAccordion.vue'
 import BButton from '@/components/Button/BButton.vue'
-import BLink from '@/components/Link/BLink.vue'
-import BInput from '@/components/Input/BInput.vue'
+import BCardModal from '@/components/CardModal/BCardModal.vue'
+import BCheckbox from '@/components/Checkbox/BCheckbox.vue'
+import BDropdown from '@/components/Dropdown/BDropdown.vue'
 import BField from '@/components/Field/BField.vue'
+import BInput from '@/components/Input/BInput.vue'
+import BLink from '@/components/Link/BLink.vue'
 import BMessage from '@/components/Message/BMessage.vue'
 import BNumberInput from '@/components/NumberInput/BNumberInput.vue'
-import BTag from '@/components/Tag/BTag.vue'
-import BToast from '@/components/Toast/BToast.vue'
-import BCheckbox from '@/components/Checkbox/BCheckbox.vue'
-import BCardModal from '@/components/CardModal/BCardModal.vue'
-import BAccordion from '@/components/accordion/BAccordion.vue'
-import BDropdown from '@/components/Dropdown/BDropdown.vue'
 import BTable from '@/components/Table/BTable.vue'
 import BTableColumn from '@/components/Table/BTableColumn.vue'
+import BTag from '@/components/Tag/BTag.vue'
+import BToast from '@/components/Toast/BToast.vue'
 
 export default defineComponent({
   components: {
+    BAccordion,
     BButton,
-    BInput,
+    BCardModal,
+    BCheckbox,
+    BDropdown,
     BField,
+    BInput,
     BLink,
     BMessage,
     BNumberInput,
-    BTag,
-    BCheckbox,
-    BToast,
-    BCardModal,
-    BAccordion,
-    BDropdown,
     BTable,
     BTableColumn,
+    BTag,
+    BToast,
   },
   name: 'App',
   setup() {
@@ -325,7 +326,7 @@ export default defineComponent({
         iron: '7%'
       },
       {
-        value: false,
+        value: true,
         name: 'Cupcake',
         calories: 305,
         fat: 3.7,

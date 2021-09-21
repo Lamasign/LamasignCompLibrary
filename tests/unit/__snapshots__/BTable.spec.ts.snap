@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Btable folder render comp BTableColumn with correct classe 1`] = `
+<div>
+  <thead>
+    <tr>
+      <th
+        class="border text-center px-8 py-4 bg-blue-light text-blue-dark font-normal hover:bg-blue-dark focus:ring-4 ring-blue"
+      >
+        
+      </th>
+    </tr>
+  </thead>
+   
+  <tbody>
+    <tr
+      class="flex flex-col"
+    />
+  </tbody>
+</div>
+`;
+
+exports[`Btable folder render comp BTableColumn with correct classe 2`] = `
+<div>
+  <thead>
+    <tr>
+      <th
+        class="border text-center px-8 py-4 bg-blue-light text-blue-dark font-normal hover:bg-blue-dark focus:ring-4 ring-blue"
+      >
+        
+      </th>
+    </tr>
+  </thead>
+   
+  <tbody>
+    <tr
+      class="flex flex-col"
+    />
+  </tbody>
+</div>
+`;
+
+exports[`Btable folder render comp BTableColumn with correct classe 3`] = `
+<div>
+  <thead>
+    <tr>
+      <th
+        class="border text-center px-8 py-4 bg-orange-light text-blue-dark hover:bg-orange-dark focus:ring-4 ring-orange"
+      >
+        
+      </th>
+    </tr>
+  </thead>
+   
+  <tbody>
+    <tr
+      class="flex flex-col"
+    />
+  </tbody>
+</div>
+`;
+
+exports[`Btable folder render comp BTableColumn with correct classe 4`] = `
+<div>
+  <thead>
+    <tr>
+      <th
+        class="border text-center px-8 py-4 bg-red-light text-blue-dark hover:bg-red-light focus:ring-4 ring-red"
+      >
+        
+      </th>
+    </tr>
+  </thead>
+   
+  <tbody>
+    <tr
+      class="flex flex-col"
+    />
+  </tbody>
+</div>
+`;
+
+exports[`Btable folder render comp BTableColumn with correct classe 5`] = `
+<div>
+  <thead>
+    <tr>
+      <th
+        class="border text-center px-8 py-4 bg-green-light text-blue-dark hover:bg-green-dark focus:ring-4 ring-green"
+      >
+        
+      </th>
+    </tr>
+  </thead>
+   
+  <tbody>
+    <tr
+      class="flex flex-col"
+    />
+  </tbody>
+</div>
+`;

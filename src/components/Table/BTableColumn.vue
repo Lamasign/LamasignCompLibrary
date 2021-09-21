@@ -21,25 +21,19 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from '@vue/composition-api'
+import { defineComponent } from '@vue/composition-api'
 
 export default defineComponent({
   name: 'BTableColumn',
   props: {
     label: {
       type: String,
-      required: false,
+      default: '',
     },
-    arrayData: {
+    data: {
       type: Array,
       default: () => [],
     },
-  },
-  setup(props) {
-    const data = ref(props.arrayData)
-    return {
-      data,
-    }
   },
 })
 </script>

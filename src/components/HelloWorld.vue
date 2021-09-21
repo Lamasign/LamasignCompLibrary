@@ -223,9 +223,9 @@
     </div> -->
 
     <div class="w-full flex justify-center items-center">
-      <BTable :data="data">
+      <BTable>
         <BTableColumn
-          :arrayData="data"
+          :data="list"
           label="id"
         >
           <template v-slot="{ item }">
@@ -233,7 +233,7 @@
           </template>
         </BTableColumn>
         <BTableColumn
-          :arrayData="data"
+          :data="list"
           label="nom"
         >
           <template v-slot="{ item }">
@@ -241,7 +241,7 @@
           </template>
         </BTableColumn>
         <BTableColumn
-          :arrayData="data"
+          :data="list"
           label="calories"
         >
           <template v-slot="{ item }">
@@ -296,7 +296,7 @@ export default defineComponent({
       test.value = val
     }
 
-    const data = [
+    const list = [
       {
         value: false,
         name: 'Frozen Yogurt',
@@ -393,7 +393,7 @@ export default defineComponent({
     return {
       test,
       update,
-      data,
+      list,
     }
   }
 })

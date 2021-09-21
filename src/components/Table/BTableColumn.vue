@@ -2,12 +2,16 @@
   <div>
     <thead>
       <tr>
-        <th class="bg-blue-100 border text-left px-8 py-4">{{ label }}</th>
+        <th class="bg-blue-light border text-center px-8 py-4">{{ label }}</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td class="border px-8 py-4">
+      <tr class="flex flex-col">
+        <td
+          v-for="(item, index) in data"
+          :key="index"
+          class="border px-8 py-4"
+        >
           <slot :item="item">
           </slot>
         </td>
@@ -33,18 +37,8 @@ export default defineComponent({
   },
   setup(props) {
     const data = ref(props.arrayData)
-    const item = {
-      value: false,
-      name: 'Ice cream sandwich',
-      calories: 237,
-      fat: 9.0,
-      carbs: 37,
-      protein: 4.3,
-      iron: '1%'
-    }
     return {
       data,
-      item,
     }
   },
 })

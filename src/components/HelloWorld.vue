@@ -223,13 +223,33 @@
     </div> -->
 
     <div class="w-full flex justify-center items-center">
-      <BTable />
-      <!-- <template #default="service">
-          <BTableColumn label="Nom">
-            {{ service.name }}
-          </BTableColumn>
-        </template> -->
-      <!-- </BTable> -->
+      <BTable :data="data">
+        <BTableColumn
+          :arrayData="data"
+          label="id"
+        >
+          <template v-slot="{ item }">
+            {{ item.value }}
+          </template>
+        </BTableColumn>
+        <BTableColumn
+          :arrayData="data"
+          label="nom"
+        >
+          <template v-slot="{ item }">
+            {{ item.name }}
+          </template>
+        </BTableColumn>
+        <BTableColumn
+          :arrayData="data"
+          label="calories"
+        >
+          <template v-slot="{ item }">
+            {{ item.calories }}
+          </template>
+        </BTableColumn>
+
+      </BTable>
     </div>
 
   </div>

@@ -4,18 +4,18 @@
     class="w-full h-full"
   >
     <div
-      v-if="Variant === SkeletonVariantsEnum.RECTANGULAR"
+      v-if="variant === SkeletonVariantsEnum.RECTANGULAR"
       :class="finalClasses"
     />
     <div
-      v-else-if="Variant === SkeletonVariantsEnum.CIRCULAR"
+      v-else-if="variant === SkeletonVariantsEnum.CIRCULAR"
       :class="finalClasses"
     />
     <div
-      v-else-if="Variant === SkeletonVariantsEnum.LINE"
+      v-else-if="variant === SkeletonVariantsEnum.LINE"
       :class="finalClasses"
     />
-    <div v-else-if="Variant === SkeletonVariantsEnum.TEXT">
+    <div v-else-if="variant === SkeletonVariantsEnum.TEXT">
       <div :class="finalClasses" />
       <div :class="finalClasses" />
       <div :class="finalClasses" />
@@ -33,7 +33,7 @@ export default defineComponent({
       type: String as PropType<SkeletonColorsEnum>,
       default: SkeletonColorsEnum.PLACEHOLDER,
     },
-    Variant: {
+    variant: {
       type: String as PropType<SkeletonVariantsEnum>,
       default: SkeletonVariantsEnum.LINE,
     },
@@ -56,7 +56,7 @@ export default defineComponent({
   },
   setup(props) {
     const colorClasses = computed(() => SkeletonColorsMap[props.Color])
-    const variantClasses = computed(() => SkeletonVariantsMap[props.Variant])
+    const variantClasses = computed(() => SkeletonVariantsMap[props.variant])
     const animationClasses = computed(() => SkeletonAnimationsMap[props.Animation])
 
     const finalClasses = computed(() => `${colorClasses.value} ${variantClasses.value} ${animationClasses.value}`)

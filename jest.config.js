@@ -13,7 +13,10 @@ module.exports = {
     "!block-navigation.js",
     "!prettify.js",
     "!sorter.js",
-    "!main.ts"
+    "!src/main.ts",
+    "!src/components/index.ts",
+    "!src/App.vue",
+    "!src/components/HelloWorld.vue"
   ],
 }
 

@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BSkeleton.vue renders correct variant based on variant props 1`] = `
+<div
+  class="w-full h-full"
+>
+  <div
+    class="bg-gray-300 leading-relaxed mb-3 w-full h-3 animate-pulse animation-wave"
+  />
+</div>
+`;
+
+exports[`BSkeleton.vue renders correct variant based on variant props 2`] = `
+<div
+  class="w-full h-full"
+>
+  <div>
+    <div
+      class="bg-gray-300 leading-relaxed mb-3 h-3 animation-wave"
+    />
+     
+    <div
+      class="bg-gray-300 leading-relaxed mb-3 h-3 animation-wave"
+    />
+     
+    <div
+      class="bg-gray-300 leading-relaxed mb-3 h-3 animation-wave"
+    />
+  </div>
+</div>
+`;
+
+exports[`BSkeleton.vue renders correct variant based on variant props 3`] = `
+<div
+  class="w-full h-full"
+>
+  <div
+    class="bg-gray-300 leading-relaxed rounded-full mb-3 w-24 h-24 animate-pulse animation-wave"
+  />
+</div>
+`;
+
+exports[`BSkeleton.vue renders correct variant based on variant props 4`] = `
+<div
+  class="w-full h-full"
+>
+  <div
+    class="bg-gray-300 lg:h-48 leading-relaxed animate-pulse md:h-36 w-full object-cover object-center animation-wave"
+  />
+</div>
+`;
+
+exports[`BSkeleton.vue renders correct variant based on variant props 5`] = `
+<div
+  class="w-full h-full"
+>
+  <div
+    class="bg-gray-300 leading-relaxed mb-3 w-full h-3 animate-pulse animation-wave"
+  />
+</div>
+`;
+
+exports[`BSkeleton.vue renders correct variant based on variant props 6`] = `
+<div
+  class="w-full h-full"
+>
+  <div
+    class="bg-gray-300 leading-relaxed mb-3 w-full h-3 animate-pulse animation-wave"
+  />
+</div>
+`;
+
+exports[`BSkeleton.vue renders correct variant based on variant props 7`] = `
+<div
+  class="w-full h-full"
+>
+  <div
+    class="bg-blue-light leading-relaxed mb-3 w-full h-3 animate-pulse animation-wave"
+  />
+</div>
+`;
+
+exports[`BSkeleton.vue renders correct variant based on variant props 8`] = `
+<div
+  class="w-full h-full"
+>
+  <div
+    class="bg-orange-light leading-relaxed mb-3 w-full h-3 animate-pulse animation-wave"
+  />
+</div>
+`;
+
+exports[`BSkeleton.vue renders correct variant based on variant props 9`] = `
+<div
+  class="w-full h-full"
+>
+  <div
+    class="bg-red-light leading-relaxed mb-3 w-full h-3 animate-pulse animation-wave"
+  />
+</div>
+`;
+
+exports[`BSkeleton.vue renders correct variant based on variant props 10`] = `
+<div
+  class="w-full h-full"
+>
+  <div
+    class="bg-green-light leading-relaxed mb-3 w-full h-3 animate-pulse animation-wave"
+  />
+</div>
+`;
+
+exports[`BSkeleton.vue renders correct variant based on variant props 11`] = `
+<div
+  class="w-full h-full"
+>
+  <div
+    class="bg-gray-300 leading-relaxed mb-3 w-full h-3 animate-pulse animation-wave"
+  />
+</div>
+`;
+
+exports[`BSkeleton.vue renders correct variant based on variant props 12`] = `
+<div
+  class="w-full h-full"
+>
+  <div
+    class="bg-gray-300 leading-relaxed mb-3 w-full h-3 animate-pulse animation-wave"
+  />
+</div>
+`;
+
+exports[`BSkeleton.vue renders correct variant based on variant props 13`] = `
+<div
+  class="w-full h-full"
+>
+  <div
+    class="bg-gray-300 leading-relaxed mb-3 w-full h-3 animate-pulse animation-wave"
+  />
+</div>
+`;
+
+exports[`BSkeleton.vue renders correct variant based on variant props 14`] = `
+<div
+  class="w-full h-full"
+>
+  <div
+    class="bg-gray-300 leading-relaxed mb-3 w-full h-3 animate-pulse animation-pulse"
+  />
+</div>
+`;

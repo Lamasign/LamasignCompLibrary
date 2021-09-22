@@ -222,7 +222,7 @@
       <BDropdown title="dropdown" />
     </div> -->
 
-    <div class="w-full flex justify-center items-center">
+    <!-- <div class="w-full flex justify-center items-center">
       <BTable>
         <BTableColumn
           :data="list"
@@ -251,8 +251,15 @@
         </BTableColumn>
 
       </BTable>
-    </div>
+    </div> -->
 
+    <div class="w-full flex justify-center items-center h-full w-1/2">
+      <BSkeleton />
+      <BSkeleton variant="rectangular" />
+      <BSkeleton variant="circular" />
+      <BSkeleton variant="text" />
+
+    </div>
   </div>
 </template>
 
@@ -268,6 +275,7 @@ import BInput from '@/components/Input/BInput.vue'
 import BLink from '@/components/Link/BLink.vue'
 import BMessage from '@/components/Message/BMessage.vue'
 import BNumberInput from '@/components/NumberInput/BNumberInput.vue'
+import BSkeleton from '@/components/Skeleton/BSkeleton.vue'
 import BTable from '@/components/Table/BTable.vue'
 import BTableColumn from '@/components/Table/BTableColumn.vue'
 import BTag from '@/components/Tag/BTag.vue'
@@ -285,6 +293,7 @@ export default defineComponent({
     BLink,
     BMessage,
     BNumberInput,
+    BSkeleton,
     BTable,
     BTableColumn,
     BTag,

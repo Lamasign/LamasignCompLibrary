@@ -26,10 +26,7 @@ module.exports = {
         DEFAULT: '#FFFFFF',
         break: '#F6EFE6',
       },
-      gray: {
-        light: '#C4C4C4',
-        DEFAULT: colors.coolGray,
-      },
+      gray: colors.gray,
       red: {
         light: '#EA535E',
         DEFAULT: '#E73047',

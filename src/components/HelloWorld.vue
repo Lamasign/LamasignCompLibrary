@@ -253,13 +253,20 @@
       </BTable>
     </div> -->
 
-    <div class="w-full flex justify-center items-center h-full w-1/2">
+    <!-- <div class="w-full flex justify-center items-center h-full w-1/2">
       <BSkeleton />
       <BSkeleton variant="rectangular" />
       <BSkeleton variant="circular" />
       <BSkeleton variant="text" />
+    </div> -->
 
+    <div class="w-full flex flex-col justify-center items-center h-full w-1/2">
+      <!-- <BTooltip>test tooltip</BTooltip> -->
+      <BSwitch label="left" />
+      <!-- <BTooltip position="right">test tooltip</BTooltip>
+      <BTooltip position="bottom">test tooltip</BTooltip> -->
     </div>
+
   </div>
 </template>
 
@@ -280,6 +287,8 @@ import BTable from '@/components/Table/BTable.vue'
 import BTableColumn from '@/components/Table/BTableColumn.vue'
 import BTag from '@/components/Tag/BTag.vue'
 import BToast from '@/components/Toast/BToast.vue'
+import BTooltip from '@/components/Tooltip/BTooltip.vue'
+import BSwitch from '@/components/Switch/BSwitch.vue'
 
 export default defineComponent({
   components: {
@@ -294,10 +303,12 @@ export default defineComponent({
     BMessage,
     BNumberInput,
     BSkeleton,
+    BSwitch,
     BTable,
     BTableColumn,
     BTag,
     BToast,
+    BTooltip,
   },
   name: 'App',
   setup() {

@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Btooltip.vue render the appropritate classe based on the "variant" prop 1`] = `
+<div
+  class="has-tooltip"
+>
+  <span
+    class="tooltip rounded shadow-lg p-3 bg-white text-dark hover:bg-blue-dark mb-3"
+  >
+    Tooltip content
+  </span>
+   
+</div>
+`;
+
+exports[`Btooltip.vue render the appropritate classe based on the "variant" prop 2`] = `
+<div
+  class="has-tooltip"
+>
+  <span
+    class="tooltip rounded shadow-lg p-3 bg-white text-dark hover:bg-blue-dark mb-3"
+  >
+    Tooltip content
+  </span>
+   
+</div>
+`;
+
+exports[`Btooltip.vue render the appropritate classe based on the "variant" prop 3`] = `
+<div
+  class="has-tooltip"
+>
+  <span
+    class="tooltip rounded shadow-lg p-3 bg-orange text-white hover:bg-orange-dark mb-3"
+  >
+    Tooltip content
+  </span>
+   
+</div>
+`;
+
+exports[`Btooltip.vue render the appropritate classe based on the "variant" prop 4`] = `
+<div
+  class="has-tooltip"
+>
+  <span
+    class="tooltip rounded shadow-lg p-3 bg-red text-white hover:bg-red-dark mb-3"
+  >
+    Tooltip content
+  </span>
+   
+</div>
+`;
+
+exports[`Btooltip.vue render the appropritate classe based on the "variant" prop 5`] = `
+<div
+  class="has-tooltip"
+>
+  <span
+    class="tooltip rounded shadow-lg p-3 bg-green text-white hover:bg-green-dark mb-3"
+  >
+    Tooltip content
+  </span>
+   
+</div>
+`;
+
+exports[`Btooltip.vue render the appropritate classe based on the "variant" prop 6`] = `
+<div
+  class="has-tooltip"
+>
+  <span
+    class="tooltip rounded shadow-lg p-3 bg-white text-dark hover:bg-blue-dark mb-3"
+  >
+    Tooltip content
+  </span>
+   
+</div>
+`;
+
+exports[`Btooltip.vue render the appropritate classe based on the "variant" prop 7`] = `
+<div
+  class="has-tooltip"
+>
+  <span
+    class="tooltip rounded shadow-lg p-3 bg-white text-dark hover:bg-blue-dark mb-3"
+  >
+    Tooltip content
+  </span>
+   
+</div>
+`;
+
+exports[`Btooltip.vue render the appropritate classe based on the "variant" prop 8`] = `
+<div
+  class="has-tooltip"
+>
+  <span
+    class="tooltip rounded shadow-lg p-3 bg-white text-dark hover:bg-blue-dark mt-8"
+  >
+    Tooltip content
+  </span>
+   
+</div>
+`;
+
+exports[`Btooltip.vue render the appropritate classe based on the "variant" prop 9`] = `
+<div
+  class="has-tooltip"
+>
+  <span
+    class="tooltip rounded shadow-lg p-3 bg-white text-dark hover:bg-blue-dark -ml-24"
+  >
+    Tooltip content
+  </span>
+   
+</div>
+`;
+
+exports[`Btooltip.vue render the appropritate classe based on the "variant" prop 10`] = `
+<div
+  class="has-tooltip"
+>
+  <span
+    class="tooltip rounded shadow-lg p-3 bg-white text-dark hover:bg-blue-dark ml-124"
+  >
+    Tooltip content
+  </span>
+   
+</div>
+`;

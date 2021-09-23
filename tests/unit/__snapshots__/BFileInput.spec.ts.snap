@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BFileInput.vue renders with the appropriate classes based on the "disabled" prop 1`] = `
+<label
+  class="w-64 flex flex-col items-center px-4 py-6 bg-white rounded-md shadow-md tracking-wide uppercase border cursor-pointer hover:text-white ease-linear transition-all duration-150 border-blue text-blue hover:border-blue-dark focus:ring-2 ring-blue"
+>
+   
+  <!---->
+   
+  <input
+    class="hidden"
+    id="inputFile"
+    multiple="multiple"
+    type="file"
+  />
+</label>
+`;
+
+exports[`BFileInput.vue renders with the appropriate classes based on the "disabled" prop 2`] = `
+<label
+  class="w-64 flex flex-col items-center px-4 py-6 bg-white rounded-md shadow-md tracking-wide uppercase border cursor-pointer hover:text-white ease-linear transition-all duration-150 border-blue text-blue hover:border-blue-dark focus:ring-2 ring-blue"
+>
+   
+  <!---->
+   
+  <input
+    aria-disabled="true"
+    class="hidden"
+    disabled="disabled"
+    id="inputFile"
+    multiple="multiple"
+    type="file"
+  />
+</label>
+`;
+
+exports[`BFileInput.vue renders with the appropriate classes based on the "disabled" prop 3`] = `
+<label
+  class="w-64 flex flex-col items-center px-4 py-6 bg-white rounded-md shadow-md tracking-wide uppercase border cursor-pointer hover:text-white ease-linear transition-all duration-150 border-orange text-orange hover:border-orange-dark focus:ring-2 ring-orange"
+>
+   
+  <!---->
+   
+  <input
+    class="hidden"
+    id="inputFile"
+    multiple="multiple"
+    type="file"
+  />
+</label>
+`;
+
+exports[`BFileInput.vue renders with the appropriate classes based on the "disabled" prop 4`] = `
+<label
+  class="w-64 flex flex-col items-center px-4 py-6 bg-white rounded-md shadow-md tracking-wide uppercase border cursor-pointer hover:text-white ease-linear transition-all duration-150 border-red text-red hover:border-red-dark focus:ring-2 ring-red"
+>
+   
+  <!---->
+   
+  <input
+    class="hidden"
+    id="inputFile"
+    multiple="multiple"
+    type="file"
+  />
+</label>
+`;
+
+exports[`BFileInput.vue renders with the appropriate classes based on the "disabled" prop 5`] = `
+<label
+  class="w-64 flex flex-col items-center px-4 py-6 bg-white rounded-md shadow-md tracking-wide uppercase border cursor-pointer hover:text-white ease-linear transition-all duration-150 border-green text-green hover:border-green-dark focus:ring-2 ring-green"
+>
+   
+  <!---->
+   
+  <input
+    class="hidden"
+    id="inputFile"
+    multiple="multiple"
+    type="file"
+  />
+</label>
+`;
+
+exports[`BFileInput.vue renders with the appropriate classes based on the "disabled" prop 6`] = `
+<label
+  class="w-64 flex flex-col items-center px-4 py-6 bg-white rounded-md shadow-md tracking-wide uppercase border cursor-pointer hover:text-white ease-linear transition-all duration-150 border-blue text-blue hover:border-blue-dark focus:ring-2 ring-blue"
+>
+   
+  <!---->
+   
+  <input
+    class="hidden"
+    id="inputFile"
+    multiple="multiple"
+    type="file"
+  />
+</label>
+`;
+
+exports[`BFileInput.vue renders with the appropriate classes based on the "disabled" prop 7`] = `
+<label
+  class="w-64 flex flex-col items-center px-4 py-6 bg-white rounded-md shadow-md tracking-wide uppercase border cursor-pointer hover:text-white ease-linear transition-all duration-150 border-orange text-orange hover:border-orange-dark focus:ring-2 ring-orange"
+>
+   
+  <!---->
+   
+  <input
+    aria-disabled="true"
+    class="hidden"
+    disabled="disabled"
+    id="inputFile"
+    multiple="multiple"
+    type="file"
+  />
+</label>
+`;
+
+exports[`BFileInput.vue renders with the appropriate classes based on the "disabled" prop 8`] = `
+<label
+  class="w-64 flex flex-col items-center px-4 py-6 bg-white rounded-md shadow-md tracking-wide uppercase border cursor-pointer hover:text-white ease-linear transition-all duration-150 border-red text-red hover:border-red-dark focus:ring-2 ring-red"
+>
+   
+  <!---->
+   
+  <input
+    aria-disabled="true"
+    class="hidden"
+    disabled="disabled"
+    id="inputFile"
+    multiple="multiple"
+    type="file"
+  />
+</label>
+`;
+
+exports[`BFileInput.vue renders with the appropriate classes based on the "disabled" prop 9`] = `
+<label
+  class="w-64 flex flex-col items-center px-4 py-6 bg-white rounded-md shadow-md tracking-wide uppercase border cursor-pointer hover:text-white ease-linear transition-all duration-150 border-green text-green hover:border-green-dark focus:ring-2 ring-green"
+>
+   
+  <!---->
+   
+  <input
+    aria-disabled="true"
+    class="hidden"
+    disabled="disabled"
+    id="inputFile"
+    multiple="multiple"
+    type="file"
+  />
+</label>
+`;
+
+exports[`BFileInput.vue renders with the appropriate classes based on the "disabled" prop 10`] = `
+<label
+  class="w-64 flex flex-col items-center px-4 py-6 bg-white rounded-md shadow-md tracking-wide uppercase border cursor-pointer hover:text-white ease-linear transition-all duration-150 border-blue text-blue hover:border-blue-dark focus:ring-2 ring-blue"
+>
+   
+  <!---->
+   
+  <input
+    aria-disabled="true"
+    class="hidden"
+    disabled="disabled"
+    id="inputFile"
+    multiple="multiple"
+    type="file"
+  />
+</label>
+`;

@@ -260,12 +260,19 @@
       <BSkeleton variant="text" />
     </div> -->
 
-    <div class="w-full flex flex-col justify-center items-center h-full w-1/2">
-      <!-- <BTooltip>test tooltip</BTooltip> -->
-      <BSwitch label="left" />
-      <!-- <BTooltip position="right">test tooltip</BTooltip>
+    <!-- <div class="w-full flex flex-col justify-center items-center h-full w-1/2"> -->
+    <!-- <BTooltip>test tooltip</BTooltip> -->
+    <!-- <BSwitch label="left" /> -->
+    <!-- <BTooltip position="right">test tooltip</BTooltip>
       <BTooltip position="bottom">test tooltip</BTooltip> -->
-    </div>
+    <!-- </div> -->
+
+    <!-- <div class="w-full flex flex-col justify-center items-center h-full w-1/2">
+      <BFileInput
+        label="helloworld"
+        variant="error"
+      />
+    </div> -->
 
   </div>
 </template>
@@ -278,17 +285,18 @@ import BCardModal from '@/components/CardModal/BCardModal.vue'
 import BCheckbox from '@/components/Checkbox/BCheckbox.vue'
 import BDropdown from '@/components/Dropdown/BDropdown.vue'
 import BField from '@/components/Field/BField.vue'
+import BFileInput from "@/components/FileInput/BFileInput.vue"
 import BInput from '@/components/Input/BInput.vue'
 import BLink from '@/components/Link/BLink.vue'
 import BMessage from '@/components/Message/BMessage.vue'
 import BNumberInput from '@/components/NumberInput/BNumberInput.vue'
 import BSkeleton from '@/components/Skeleton/BSkeleton.vue'
+import BSwitch from '@/components/Switch/BSwitch.vue'
 import BTable from '@/components/Table/BTable.vue'
 import BTableColumn from '@/components/Table/BTableColumn.vue'
 import BTag from '@/components/Tag/BTag.vue'
 import BToast from '@/components/Toast/BToast.vue'
 import BTooltip from '@/components/Tooltip/BTooltip.vue'
-import BSwitch from '@/components/Switch/BSwitch.vue'
 
 export default defineComponent({
   components: {
@@ -298,6 +306,7 @@ export default defineComponent({
     BCheckbox,
     BDropdown,
     BField,
+    BFileInput,
     BInput,
     BLink,
     BMessage,

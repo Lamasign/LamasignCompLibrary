@@ -15,7 +15,7 @@
 <script lang="ts">
 import { computed, defineComponent, inject, PropType } from '@vue/composition-api'
 import { InputTypesEnum, InputTypes, InputTypesArray, InputStatusesClassesMap, InputStatusesEnum } from '@/components/Input/BInput.types'
-import { FIELD_STATUS_INJECTION_KEY } from '@/components/Field/BField.types.ts'
+import { FIELD_STATUS_INJECTION_KEY } from '@/components/Field/BField.types'
 import { DOM_EVENTS_ENUM } from '@/utils'
 /**
  * Form Input with automatic validation (when used with BField).

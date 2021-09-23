@@ -109,7 +109,11 @@ describe('BSelect.vue', () => {
 	it('renders with the appropriate classes based on the "outlined" prop', async () => {
 		expect.assertions(SelectColorsArray.length + 6)
 
-		const defaultWrapper = createWrapper(BSelect)
+		const defaultWrapper = createWrapper(BSelect, {
+			propsData: {
+				value: list[0]
+			}
+		})
 		expect(defaultWrapper.element).toMatchSnapshot()
 
 		await Promise.all(SelectColorsArray.map(async (color) => {

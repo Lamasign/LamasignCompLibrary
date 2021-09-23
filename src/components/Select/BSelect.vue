@@ -132,11 +132,11 @@ export default defineComponent({
   },
   setup(props, { emit }) {
     const isOpen = ref(props.open)
-    const updatedValue = ref<unknown>(props.value)
+    const updatedValue = ref<any>(props.value)
 
     const colorClasses = computed(() => SelectColorsMap[props.color])
 
-    const isSelected = (el: unknown) => computed(() => updatedValue.value === el)
+    const isSelected = (el: any) => computed(() => updatedValue.value === el)
 
     function closeDropdown() {
       isOpen.value = false
@@ -149,7 +149,7 @@ export default defineComponent({
 
     }
 
-    function select(newValue: unknown) {
+    function select(newValue: any) {
       updatedValue.value = newValue
       emit('valueSelect', newValue)
       closeDropdown()

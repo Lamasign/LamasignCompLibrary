@@ -106,6 +106,7 @@
   </div>
 </template>
 <script lang='ts'>
+import ClickOutside from 'vue-click-outside'
 import { computed, defineComponent, ref } from '@vue/composition-api'
 
 export default defineComponent({
@@ -127,6 +128,9 @@ export default defineComponent({
       type: String,
       required: true,
     },
+  },
+  directives: {
+    ClickOutside
   },
   setup(props, { emit }) {
     const isOpen = ref(props.open)

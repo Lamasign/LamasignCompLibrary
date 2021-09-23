@@ -16,7 +16,8 @@
     "decimal.js-light": "^2.5.1",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-click-outside": "^1.1.0"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",

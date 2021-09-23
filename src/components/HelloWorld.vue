@@ -274,12 +274,47 @@
       />
     </div> -->
 
+    <div class="w-full flex justify-center items-center h-full w-1/2">
+      <BBadge
+        class="m-2"
+        label="helloworld"
+      />
+      <BBadge
+        class="m-2"
+        label="goodbye"
+        size="xl"
+        color="primary"
+      />
+      <BBadge
+        class="m-2"
+        label="goodbye"
+        size="basic"
+        color="success"
+        variant="close_button"
+      />
+      <BBadge
+        class="m-2"
+        label="goodbye"
+        size="basic"
+        color="danger"
+        variant="close_button"
+      />
+      <BBadge
+        class="m-2"
+        label="warning"
+        size="basic"
+        color="warning"
+        variant="close_button"
+      />
+    </div>
+
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, ref } from '@vue/composition-api'
 import BAccordion from '@/components/accordion/BAccordion.vue'
+import BBadge from '@/components/Badge/BBadge.vue'
 import BButton from '@/components/Button/BButton.vue'
 import BCardModal from '@/components/CardModal/BCardModal.vue'
 import BCheckbox from '@/components/Checkbox/BCheckbox.vue'
@@ -290,6 +325,7 @@ import BInput from '@/components/Input/BInput.vue'
 import BLink from '@/components/Link/BLink.vue'
 import BMessage from '@/components/Message/BMessage.vue'
 import BNumberInput from '@/components/NumberInput/BNumberInput.vue'
+import BRadio from '@/components/Radio/BRadio.vue'
 import BSkeleton from '@/components/Skeleton/BSkeleton.vue'
 import BSwitch from '@/components/Switch/BSwitch.vue'
 import BTable from '@/components/Table/BTable.vue'
@@ -301,6 +337,7 @@ import BTooltip from '@/components/Tooltip/BTooltip.vue'
 export default defineComponent({
   components: {
     BAccordion,
+    BBadge,
     BButton,
     BCardModal,
     BCheckbox,
@@ -311,6 +348,7 @@ export default defineComponent({
     BLink,
     BMessage,
     BNumberInput,
+    BRadio,
     BSkeleton,
     BSwitch,
     BTable,

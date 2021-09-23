@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BBadge.vue render the appropritate classe based on the "color" prop 1`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-gray-500 text-white text-xs"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "color" prop 2`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-blue text-white hover:bg-blue-dark text-xs"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "color" prop 3`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-orange text-white hover:bg-orange-dark text-xs"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "color" prop 4`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-red text-white hover:bg-red-dark text-xs"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "color" prop 5`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-green text-white hover:bg-green-dark text-xs"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "color" prop 6`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-violet text-white hover:bg-violet-dark text-xs"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "color" prop 7`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-gray-500 text-white text-xs"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "size" prop 1`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-gray-500 text-white text-xs"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "size" prop 2`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-gray-500 text-white text-xs"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "size" prop 3`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-gray-500 text-white text-sm"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "size" prop 4`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-gray-500 text-white text-base"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "size" prop 5`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-gray-500 text-white text-lg"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "size" prop 6`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-gray-500 text-white text-xl"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "size" prop 7`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-gray-500 text-white text-2xl"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "size" prop 8`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-gray-500 text-white text-3xl"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "variant" prop 1`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-gray-500 text-white text-xs"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "variant" prop 2`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-gray-500 text-white text-xs"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <!---->
+</div>
+`;
+
+exports[`BBadge.vue render the appropritate classe based on the "variant" prop 3`] = `
+<div
+  class="flex justify-center items-center space-x-1 px-2 font-medium rounded-full py-1 bg-gray-500 text-white text-xs"
+>
+  <span>
+    
+    
+  
+  </span>
+   
+  <button
+    class="bg-transparent text-xl font-semibold leading-none  outline-none focus:outline-none cursor-pointer"
+  >
+    <span>
+      ×
+    </span>
+  </button>
+</div>
+`;

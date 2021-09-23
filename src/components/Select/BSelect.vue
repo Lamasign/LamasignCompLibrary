@@ -57,11 +57,6 @@
           aria-activedescendant="listbox-item-3"
           class="max-h-56 rounded-md py-1 text-base leading-6 shadow-xs overflow-auto focus:outline-none sm:text-sm sm:leading-5"
         >
-
-          <!--
-            Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.
-            Highlighted: "text-white bg-indigo-600", Not Highlighted: "text-gray-900"
-          -->
           <li
             v-for="(item, index) in data"
             :key="index"
@@ -72,7 +67,6 @@
             @click="select(item)"
           >
             <div class="flex items-center space-x-3">
-              <!-- Selected: "font-semibold", Not Selected: "font-normal" -->
               <span
                 class="block truncate"
                 :class="{ 'font-normal' : !isSelected(item).value , 'font-semibold' : isSelected(item).value}"
@@ -81,10 +75,6 @@
               </span>
             </div>
 
-            <!--
-              Checkmark, only display for selected option.
-              Highlighted: "text-white", Not Highlighted: "text-indigo-600"
-            -->
             <span
               v-show="isSelected(item).value"
               class="absolute inset-y-0 right-0 flex items-center pr-4"
@@ -166,13 +156,13 @@ export default defineComponent({
     }
 
     return {
-      isOpen,
       closeDropdown,
-      openDropdown,
+      colorClasses,
+      isOpen,
       isSelected,
+      openDropdown,
       select,
       updatedValue,
-      colorClasses,
     }
   },
 })

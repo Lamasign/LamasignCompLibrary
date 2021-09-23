@@ -30,6 +30,7 @@ export default defineComponent({
     const classes = computed(() => TooltipVariantsMap[props.variant])
     const positionClasse = computed(() => TooltipPositionsMap[props.position])
     const finalClasses = computed(() => `${classes.value} ${positionClasse.value}`)
+
     return {
       finalClasses,
     }

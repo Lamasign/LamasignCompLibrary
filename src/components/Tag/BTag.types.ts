@@ -13,7 +13,7 @@ export type TagVariantsMap = {
 	[key in TagVariantsEnum]: string
 }
 
-const commonClasses = 'p-8 rounded'
+const commonClasses = 'p-4 rounded'
 
 export const TagsVariantsMap: TagVariantsMap = {
 	primary: `${commonClasses} bg-blue text-white hover:bg-blue-dark`,

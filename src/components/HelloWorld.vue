@@ -312,6 +312,7 @@
       <BSelect
         :data="list"
         field="name"
+        value="test"
       />
     </div>
 

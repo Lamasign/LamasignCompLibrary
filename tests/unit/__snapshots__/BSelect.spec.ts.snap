@@ -30,7 +30,7 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
             class="block truncate"
           >
             
-            
+            Frozen Yogurt
           
           </span>
         </div>
@@ -66,7 +66,357 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
         id="listbox-label"
         role="listbox"
         tabindex="-1"
-      />
+      >
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-0"
+          role="option"
+          tabindex="0"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-semibold"
+            >
+              
+              Frozen Yogurt
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-1"
+          role="option"
+          tabindex="1"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Ice cream sandwich
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-2"
+          role="option"
+          tabindex="2"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Eclair
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-3"
+          role="option"
+          tabindex="3"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Cupcake
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-4"
+          role="option"
+          tabindex="4"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Gingerbread
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-5"
+          role="option"
+          tabindex="5"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Jelly bean
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-6"
+          role="option"
+          tabindex="6"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Lollipop
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-7"
+          role="option"
+          tabindex="7"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Honeycomb
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-8"
+          role="option"
+          tabindex="8"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Donut
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-9"
+          role="option"
+          tabindex="9"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              KitKat
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
@@ -102,7 +452,7 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
             class="block truncate"
           >
             
-            
+            Frozen Yogurt
           
           </span>
         </div>
@@ -138,7 +488,357 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
         id="listbox-label"
         role="listbox"
         tabindex="-1"
-      />
+      >
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-0"
+          role="option"
+          tabindex="0"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-semibold"
+            >
+              
+              Frozen Yogurt
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-1"
+          role="option"
+          tabindex="1"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Ice cream sandwich
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-2"
+          role="option"
+          tabindex="2"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Eclair
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-3"
+          role="option"
+          tabindex="3"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Cupcake
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-4"
+          role="option"
+          tabindex="4"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Gingerbread
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-5"
+          role="option"
+          tabindex="5"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Jelly bean
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-6"
+          role="option"
+          tabindex="6"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Lollipop
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-7"
+          role="option"
+          tabindex="7"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Honeycomb
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-8"
+          role="option"
+          tabindex="8"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Donut
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-9"
+          role="option"
+          tabindex="9"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              KitKat
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
@@ -174,7 +874,7 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
             class="block truncate"
           >
             
-            
+            Frozen Yogurt
           
           </span>
         </div>
@@ -210,7 +910,357 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
         id="listbox-label"
         role="listbox"
         tabindex="-1"
-      />
+      >
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-0"
+          role="option"
+          tabindex="0"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-semibold"
+            >
+              
+              Frozen Yogurt
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-1"
+          role="option"
+          tabindex="1"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Ice cream sandwich
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-2"
+          role="option"
+          tabindex="2"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Eclair
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-3"
+          role="option"
+          tabindex="3"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Cupcake
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-4"
+          role="option"
+          tabindex="4"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Gingerbread
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-5"
+          role="option"
+          tabindex="5"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Jelly bean
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-6"
+          role="option"
+          tabindex="6"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Lollipop
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-7"
+          role="option"
+          tabindex="7"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Honeycomb
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-8"
+          role="option"
+          tabindex="8"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Donut
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-blue focus:bg-blue"
+          id="listbox-item-9"
+          role="option"
+          tabindex="9"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              KitKat
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
@@ -246,7 +1296,7 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
             class="block truncate"
           >
             
-            
+            Frozen Yogurt
           
           </span>
         </div>
@@ -282,7 +1332,357 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
         id="listbox-label"
         role="listbox"
         tabindex="-1"
-      />
+      >
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-0"
+          role="option"
+          tabindex="0"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-semibold"
+            >
+              
+              Frozen Yogurt
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-1"
+          role="option"
+          tabindex="1"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Ice cream sandwich
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-2"
+          role="option"
+          tabindex="2"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Eclair
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-3"
+          role="option"
+          tabindex="3"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Cupcake
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-4"
+          role="option"
+          tabindex="4"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Gingerbread
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-5"
+          role="option"
+          tabindex="5"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Jelly bean
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-6"
+          role="option"
+          tabindex="6"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Lollipop
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-7"
+          role="option"
+          tabindex="7"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Honeycomb
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-8"
+          role="option"
+          tabindex="8"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Donut
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-9"
+          role="option"
+          tabindex="9"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              KitKat
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
@@ -318,7 +1718,7 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
             class="block truncate"
           >
             
-            
+            Frozen Yogurt
           
           </span>
         </div>
@@ -354,7 +1754,357 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
         id="listbox-label"
         role="listbox"
         tabindex="-1"
-      />
+      >
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-0"
+          role="option"
+          tabindex="0"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-semibold"
+            >
+              
+              Frozen Yogurt
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-1"
+          role="option"
+          tabindex="1"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Ice cream sandwich
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-2"
+          role="option"
+          tabindex="2"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Eclair
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-3"
+          role="option"
+          tabindex="3"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Cupcake
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-4"
+          role="option"
+          tabindex="4"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Gingerbread
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-5"
+          role="option"
+          tabindex="5"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Jelly bean
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-6"
+          role="option"
+          tabindex="6"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Lollipop
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-7"
+          role="option"
+          tabindex="7"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Honeycomb
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-8"
+          role="option"
+          tabindex="8"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Donut
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-orange focus:bg-orange"
+          id="listbox-item-9"
+          role="option"
+          tabindex="9"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              KitKat
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
@@ -390,7 +2140,7 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
             class="block truncate"
           >
             
-            
+            Frozen Yogurt
           
           </span>
         </div>
@@ -426,7 +2176,357 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
         id="listbox-label"
         role="listbox"
         tabindex="-1"
-      />
+      >
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-0"
+          role="option"
+          tabindex="0"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-semibold"
+            >
+              
+              Frozen Yogurt
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-1"
+          role="option"
+          tabindex="1"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Ice cream sandwich
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-2"
+          role="option"
+          tabindex="2"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Eclair
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-3"
+          role="option"
+          tabindex="3"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Cupcake
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-4"
+          role="option"
+          tabindex="4"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Gingerbread
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-5"
+          role="option"
+          tabindex="5"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Jelly bean
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-6"
+          role="option"
+          tabindex="6"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Lollipop
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-7"
+          role="option"
+          tabindex="7"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Honeycomb
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-8"
+          role="option"
+          tabindex="8"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Donut
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-9"
+          role="option"
+          tabindex="9"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              KitKat
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
@@ -462,7 +2562,7 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
             class="block truncate"
           >
             
-            
+            Frozen Yogurt
           
           </span>
         </div>
@@ -498,7 +2598,357 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
         id="listbox-label"
         role="listbox"
         tabindex="-1"
-      />
+      >
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-0"
+          role="option"
+          tabindex="0"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-semibold"
+            >
+              
+              Frozen Yogurt
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-1"
+          role="option"
+          tabindex="1"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Ice cream sandwich
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-2"
+          role="option"
+          tabindex="2"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Eclair
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-3"
+          role="option"
+          tabindex="3"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Cupcake
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-4"
+          role="option"
+          tabindex="4"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Gingerbread
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-5"
+          role="option"
+          tabindex="5"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Jelly bean
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-6"
+          role="option"
+          tabindex="6"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Lollipop
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-7"
+          role="option"
+          tabindex="7"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Honeycomb
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-8"
+          role="option"
+          tabindex="8"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Donut
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-red focus:bg-red"
+          id="listbox-item-9"
+          role="option"
+          tabindex="9"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              KitKat
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
@@ -534,7 +2984,7 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
             class="block truncate"
           >
             
-            
+            Frozen Yogurt
           
           </span>
         </div>
@@ -570,7 +3020,357 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
         id="listbox-label"
         role="listbox"
         tabindex="-1"
-      />
+      >
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-0"
+          role="option"
+          tabindex="0"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-semibold"
+            >
+              
+              Frozen Yogurt
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-1"
+          role="option"
+          tabindex="1"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Ice cream sandwich
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-2"
+          role="option"
+          tabindex="2"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Eclair
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-3"
+          role="option"
+          tabindex="3"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Cupcake
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-4"
+          role="option"
+          tabindex="4"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Gingerbread
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-5"
+          role="option"
+          tabindex="5"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Jelly bean
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-6"
+          role="option"
+          tabindex="6"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Lollipop
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-7"
+          role="option"
+          tabindex="7"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Honeycomb
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-8"
+          role="option"
+          tabindex="8"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Donut
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-9"
+          role="option"
+          tabindex="9"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              KitKat
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
@@ -606,7 +3406,7 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
             class="block truncate"
           >
             
-            
+            Frozen Yogurt
           
           </span>
         </div>
@@ -642,7 +3442,357 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
         id="listbox-label"
         role="listbox"
         tabindex="-1"
-      />
+      >
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-0"
+          role="option"
+          tabindex="0"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-semibold"
+            >
+              
+              Frozen Yogurt
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-1"
+          role="option"
+          tabindex="1"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Ice cream sandwich
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-2"
+          role="option"
+          tabindex="2"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Eclair
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-3"
+          role="option"
+          tabindex="3"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Cupcake
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-4"
+          role="option"
+          tabindex="4"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Gingerbread
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-5"
+          role="option"
+          tabindex="5"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Jelly bean
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-6"
+          role="option"
+          tabindex="6"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Lollipop
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-7"
+          role="option"
+          tabindex="7"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Honeycomb
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-8"
+          role="option"
+          tabindex="8"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Donut
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-green focus:bg-green"
+          id="listbox-item-9"
+          role="option"
+          tabindex="9"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              KitKat
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
@@ -678,7 +3828,7 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
             class="block truncate"
           >
             
-            
+            Frozen Yogurt
           
           </span>
         </div>
@@ -714,7 +3864,357 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
         id="listbox-label"
         role="listbox"
         tabindex="-1"
-      />
+      >
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-0"
+          role="option"
+          tabindex="0"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-semibold"
+            >
+              
+              Frozen Yogurt
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-1"
+          role="option"
+          tabindex="1"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Ice cream sandwich
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-2"
+          role="option"
+          tabindex="2"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Eclair
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-3"
+          role="option"
+          tabindex="3"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Cupcake
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-4"
+          role="option"
+          tabindex="4"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Gingerbread
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-5"
+          role="option"
+          tabindex="5"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Jelly bean
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-6"
+          role="option"
+          tabindex="6"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Lollipop
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-7"
+          role="option"
+          tabindex="7"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Honeycomb
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-8"
+          role="option"
+          tabindex="8"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Donut
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-9"
+          role="option"
+          tabindex="9"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              KitKat
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
@@ -750,7 +4250,7 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
             class="block truncate"
           >
             
-            
+            Frozen Yogurt
           
           </span>
         </div>
@@ -786,7 +4286,357 @@ exports[`BSelect.vue renders with the appropriate classes based on the "outlined
         id="listbox-label"
         role="listbox"
         tabindex="-1"
-      />
+      >
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-0"
+          role="option"
+          tabindex="0"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-semibold"
+            >
+              
+              Frozen Yogurt
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-1"
+          role="option"
+          tabindex="1"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Ice cream sandwich
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-2"
+          role="option"
+          tabindex="2"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Eclair
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-3"
+          role="option"
+          tabindex="3"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Cupcake
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-4"
+          role="option"
+          tabindex="4"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Gingerbread
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-5"
+          role="option"
+          tabindex="5"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Jelly bean
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-6"
+          role="option"
+          tabindex="6"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Lollipop
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-7"
+          role="option"
+          tabindex="7"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Honeycomb
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-8"
+          role="option"
+          tabindex="8"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              Donut
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li
+          class="text-gray-900 select-none relative py-2 pl-3 pr-9  cursor-pointer hover:text-white focus:outline-none focus:text-white hover:bg-yellow focus:bg-yellow-500"
+          id="listbox-item-9"
+          role="option"
+          tabindex="9"
+        >
+          <div
+            class="flex items-center space-x-3"
+          >
+            <span
+              class="block truncate font-normal"
+            >
+              
+              KitKat
+            
+            </span>
+          </div>
+           
+          <span
+            class="absolute inset-y-0 right-0 flex items-center pr-4"
+            style="display: none;"
+          >
+            <svg
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+      </ul>
     </div>
   </div>
 </div>

@@ -101,7 +101,11 @@ describe('BSelect.vue', () => {
 		const slotContent = 'Select'
 		const wrapper = createWrapper(BSelect, {
 			slots: { SelectLabel: slotContent },
-			propsData: list[0],
+			propsData: {
+				value: list[0],
+				field: 'name',
+				data: list,
+			},
 		})
 		expect(wrapper.text()).toMatch(slotContent)
 	})
@@ -111,7 +115,9 @@ describe('BSelect.vue', () => {
 
 		const defaultWrapper = createWrapper(BSelect, {
 			propsData: {
-				value: list[0]
+				value: list[0],
+				field: 'name',
+				data: list,
 			}
 		})
 		expect(defaultWrapper.element).toMatchSnapshot()
@@ -120,7 +126,10 @@ describe('BSelect.vue', () => {
 			const wrapperWithProps = createWrapper(BSelect, {
 				propsData: {
 					color,
-					value: list[0]
+					value: list[0],
+					field: 'name',
+					data: list,
+
 				}
 			})
 			expect(wrapperWithProps.element).toMatchSnapshot()

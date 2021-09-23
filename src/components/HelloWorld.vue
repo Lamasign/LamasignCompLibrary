@@ -308,6 +308,13 @@
       />
     </div>
 
+    <div class="w-full flex justify-center items-center h-full w-1/2">
+      <BSelect
+        :data="list"
+        field="name"
+      />
+    </div>
+
   </div>
 </template>
 
@@ -326,6 +333,7 @@ import BLink from '@/components/Link/BLink.vue'
 import BMessage from '@/components/Message/BMessage.vue'
 import BNumberInput from '@/components/NumberInput/BNumberInput.vue'
 import BRadio from '@/components/Radio/BRadio.vue'
+import BSelect from '@/components/Select/BSelect.vue'
 import BSkeleton from '@/components/Skeleton/BSkeleton.vue'
 import BSwitch from '@/components/Switch/BSwitch.vue'
 import BTable from '@/components/Table/BTable.vue'
@@ -349,6 +357,7 @@ export default defineComponent({
     BMessage,
     BNumberInput,
     BRadio,
+    BSelect,
     BSkeleton,
     BSwitch,
     BTable,

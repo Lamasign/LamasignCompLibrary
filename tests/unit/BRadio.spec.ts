@@ -13,11 +13,11 @@ describe('Bradio.vue', () => {
 			}
 		})
 	})
+
 	it('render correct string passed on option prop', () => {
 		expect(wrapper!.props().option).toEqual(option)
-
-
 	})
+
 	it('emits a changeinput" when the BRadio is change', async () => {
 		await wrapper!.find('input').trigger('change')
 		expect(wrapper!.emitted().input).toBeTruthy()

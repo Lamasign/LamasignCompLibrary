@@ -1,13 +1,12 @@
 import { ButtonSizesEnum, ButtonTypesArray, ButtonVariantsArray } from './../../src/components/Button/BButton.types'
 import BButton from '@/components/Button/BButton.vue'
-import { mount } from "@vue/test-utils"
 import { createWrapper } from './utils'
 
 describe('BButton.vue', () => {
 	it('render the content of his default slot', () => {
 		expect.assertions(1)
 		const slotContent = 'button'
-		const wrapper = mount(BButton, {
+		const wrapper = createWrapper(BButton, {
 			slots: { default: slotContent }
 		})
 		expect(wrapper.text()).toMatch(slotContent)

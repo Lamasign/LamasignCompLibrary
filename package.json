@@ -12,7 +12,9 @@
     "build": "vue-cli-service build --target lib --name BeRightComponentLibrary ./src/index.ts",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "dev": "vue-cli-service serve"
+    "dev": "vue-cli-service serve",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run test"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",
@@ -74,5 +76,15 @@
     "> 1%",
     "last 2 versions",
     "not dead"
+  ],
+  "keywords": [
+    "vue",
+    "vuejs",
+    "jest",
+    "typescript",
+    "tailwindcss",
+    "lamasign-components-library",
+    "components",
+    "library"
   ]
 }

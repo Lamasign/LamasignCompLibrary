@@ -8,13 +8,19 @@
   "files": [
     "lib/*"
   ],
+  "types": "",
+  "main": "dist/BeRightComponentLibrary.umd.min.js",
+  "unpkg": "dist/BeRightComponentLibrary.umd.min.js",
+  "jsdelivr": "dist/BeRightComponentLibrary.umd.min.js",
   "scripts": {
     "build": "vue-cli-service build --target lib --name BeRightComponentLibrary src/index.ts",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "dev": "vue-cli-service serve",
     "prepare": "npm run build",
-    "prepublishOnly": "npm run test"
+    "prepublishOnly": "npm run test:unit",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",

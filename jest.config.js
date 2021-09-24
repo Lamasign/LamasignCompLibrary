@@ -14,9 +14,11 @@ module.exports = {
     "!prettify.js",
     "!sorter.js",
     "!src/main.ts",
+    "!src/index.ts",
     "!src/components/index.ts",
     "!src/App.vue",
-    "!src/components/test.vue"
+    "!src/components/test.vue",
+    "!dist/*"
   ],
 }
 

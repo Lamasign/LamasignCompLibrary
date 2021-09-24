@@ -4,7 +4,7 @@
   "description": "VueJS UI Components made by Malo Lebrin",
   "author": "Malo Lebrin",
   "license": "Malo Lebrin Copyright",
-  "private": true,
+  "private": false,
   "files": [
     "lib/*"
   ],

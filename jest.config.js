@@ -16,7 +16,7 @@ module.exports = {
     "!src/main.ts",
     "!src/components/index.ts",
     "!src/App.vue",
-    "!src/components/HelloWorld.vue"
+    "!src/components/test.vue"
   ],
 }
 

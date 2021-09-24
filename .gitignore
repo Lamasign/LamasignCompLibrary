@@ -26,6 +26,4 @@ pnpm-debug.log*
 /coverage
 
 test.vue
-./test.vue
-/src/test.vue
-./App.vue
+App.vue

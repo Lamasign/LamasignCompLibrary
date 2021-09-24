@@ -6,10 +6,10 @@
   "license": "Malo Lebrin Copyright",
   "private": true,
   "files": [
-    "dist/*"
+    "lib/*"
   ],
   "scripts": {
-    "build": "vue-cli-service build --target lib --name BeRightComponentLibrary ./src/index.ts",
+    "build": "vue-cli-service build --target lib --name BeRightComponentLibrary ./main.ts",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "dev": "vue-cli-service serve",

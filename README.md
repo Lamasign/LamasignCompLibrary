@@ -1,5 +1,5 @@
 # lamasign-components-library
-
+[![Codecov Coverage](https://img.shields.io/codecov/c/github/malolebrin/LamasignCompLibrary/&lt;main.svg?style=flat-square)](https://codecov.io/gh/malolebrin/LamasignCompLibrary/)
 ## Project setup
 ```
 yarn install

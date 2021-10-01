@@ -1,5 +1,5 @@
 import { BadgeColorsArray, BadgeSizesArray, BadgeVariantsArray } from '../../src/types'
-import BBadge from './components/Badge/BBadge.vue'
+import BBadge from '../../src/components/Badge/BBadge.vue'
 import { createWrapper } from './utils'
 
 describe('BBadge.vue', () => {

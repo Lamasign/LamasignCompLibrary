@@ -1,4 +1,4 @@
-import BRadio from './components/Radio/BRadio.vue'
+import BRadio from '../../src/components/Radio/BRadio.vue'
 import { Wrapper } from '@vue/test-utils'
 import { createWrapper } from './utils'
 

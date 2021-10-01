@@ -1,5 +1,5 @@
 import { createWrapper } from './utils'
-import BInput from './components/Input/BInput.vue'
+import BInput from '../../src/components/Input/BInput.vue'
 import { InputTypesArray } from '../../src/types'
 
 describe('BInput', () => {

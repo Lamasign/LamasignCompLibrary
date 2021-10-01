@@ -1,5 +1,5 @@
 import { createWrapper } from './utils'
-import BMessage from './components/Message/BMessage.vue'
+import BMessage from '../../src/components/Message/BMessage.vue'
 import { MessageVariantsArray } from '../../src/types'
 
 describe('BMessage.vue', () => {

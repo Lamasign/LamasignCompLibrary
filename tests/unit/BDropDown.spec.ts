@@ -1,5 +1,5 @@
 import { createWrapper } from './utils'
-import BDropdown from './components/Dropdown/BDropdown.vue'
+import BDropdown from '../../src/components/Dropdown/BDropdown.vue'
 import { DropdownVariantsArray } from '../../src/types'
 
 describe('BDropdown.vue', () => {

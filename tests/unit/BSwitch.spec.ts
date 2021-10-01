@@ -1,5 +1,5 @@
 import { createWrapper } from "./utils"
-import BSwitch from './components/Switch/BSwitch.vue'
+import BSwitch from '../../src/components/Switch/BSwitch.vue'
 import { SwitchVariantsArray } from '../../src/types'
 
 describe('BSwitch.vue', () => {

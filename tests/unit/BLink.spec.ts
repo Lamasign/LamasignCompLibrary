@@ -1,5 +1,5 @@
 import { createWrapper } from './utils'
-import BLink from './components/Link/BLink.vue'
+import BLink from '../../src/components/Link/BLink.vue'
 import { LinkVariantsArray } from '../../src/types'
 
 describe('BLink.vue', () => {

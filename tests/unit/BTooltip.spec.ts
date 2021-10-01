@@ -1,5 +1,5 @@
 import { TooltipPositionsArray, TooltipVariantsArray } from '../../src/types'
-import BTooltip from './components/Tooltip/BTooltip.vue'
+import BTooltip from '../../src/components/Tooltip/BTooltip.vue'
 import { createWrapper } from './utils'
 
 describe('Btooltip.vue', () => {

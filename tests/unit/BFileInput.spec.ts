@@ -1,4 +1,4 @@
-import BFileInput from './components/FileInput/BFileInput.vue'
+import BFileInput from '../../src/components/FileInput/BFileInput.vue'
 import { InputFileStatusesArray, InputFileStatusesEnum } from '../../src/types'
 import { createWrapper } from './utils'
 

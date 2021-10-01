@@ -1,4 +1,4 @@
-import BTag from './components/Tag/BTag.vue'
+import BTag from '../../src/components/Tag/BTag.vue'
 import { TagVariantsArray } from '../../src/types'
 import { createWrapper } from './utils'
 

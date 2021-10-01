@@ -1,5 +1,5 @@
 import { createWrapper } from "./utils"
-import BSkeleton from './components/Skeleton/BSkeleton.vue'
+import BSkeleton from '../../src/components/Skeleton/BSkeleton.vue'
 import { SkeletonAnimationsArray, SkeletonColorsArray, SkeletonVariantsArray } from '../../src/types'
 
 describe('BSkeleton.vue', () => {

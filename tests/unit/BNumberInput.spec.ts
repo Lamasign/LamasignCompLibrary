@@ -1,6 +1,6 @@
 import { createWrapper } from './utils'
-import BButton from './components/Button/BButton.vue'
-import BNumberInput from './components/NumberInput/BNumberInput.vue'
+import BButton from '../../src/components/Button/BButton.vue'
+import BNumberInput from '../../src/components/NumberInput/BNumberInput.vue'
 import { FieldStatusesEnum, FIELD_STATUS_INJECTION_KEY, InputStatusesArray } from '../../src/types'
 
 describe('BNumberInput.vue', () => {

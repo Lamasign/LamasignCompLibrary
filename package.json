@@ -6,7 +6,10 @@
   "license": "Malo Lebrin Copyright",
   "private": false,
   "files": [
-    "lib/*"
+    "dist/*",
+    "src/*",
+    "*.json",
+    "*.ts"
   ],
   "types": "src/types.ts",
   "main": "src/index.ts",

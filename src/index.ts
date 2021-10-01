@@ -20,27 +20,27 @@ import { default as BTag } from './components/Tag/BTag.vue'
 import { default as BToast } from './components/Toast/BToast.vue'
 import { default as BTooltip } from './components/Tooltip/BTooltip.vue'
 
-// const components = {
-// 	BAccordion,
-// 	BBadge,
-// 	BButton,
-// 	BCardModal,
-// 	BCheckbox,
-// 	BDropdown,
-// 	BField,
-// 	BFileInput,
-// 	BInput,
-// 	BLink,
-// 	BMessage,
-// 	BNumberInput,
-// 	BRadio,
-// 	BSelect,
-// 	BSkeleton,
-// 	BSwitch,
-// 	BTable,
-// 	BTableColumn,
-// 	BTag,
-// 	BToast,
-// 	BTooltip,
-// }
-// export default components
+const components = {
+	BAccordion,
+	BBadge,
+	BButton,
+	BCardModal,
+	BCheckbox,
+	BDropdown,
+	BField,
+	BFileInput,
+	BInput,
+	BLink,
+	BMessage,
+	BNumberInput,
+	BRadio,
+	BSelect,
+	BSkeleton,
+	BSwitch,
+	BTable,
+	BTableColumn,
+	BTag,
+	BToast,
+	BTooltip,
+}
+export default components

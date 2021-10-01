@@ -1,6 +1,6 @@
 import { createWrapper } from './utils'
-import BField from '@/components/Field/BField.vue'
-import { FieldStatusesArray } from '@/components/Field/BField.types'
+import BField from './components/Field/BField.vue'
+import { FieldStatusesArray } from '../../src/types'
 
 describe('BField.vue', () => {
 

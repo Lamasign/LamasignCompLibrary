@@ -29,7 +29,7 @@ import {
   DropdownVariantsMap,
   DropdownVariantsEnum,
   DropdownVariantsArray,
-} from '@/components/Dropdown/BDropdown.types'
+} from './BDropdown.types'
 
 export default defineComponent({
   name: "BDropdown",

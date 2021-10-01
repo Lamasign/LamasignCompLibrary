@@ -1,4 +1,4 @@
-import { stringOrNullValidator } from '@/utils/props-validator'
+import { stringOrNullValidator } from '../../src/utils/props-validator'
 
 describe('Props Validators', () => {
   describe('stringOrNullValidator', () => {

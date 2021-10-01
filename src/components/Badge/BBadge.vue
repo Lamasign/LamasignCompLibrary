@@ -15,7 +15,7 @@
 </template>
 <script lang='ts'>
 import { computed, defineComponent, PropType } from '@vue/composition-api'
-import { BadgeColorsArray, BadgeColorsEnum, BadgeSizeEnum, BadgeSizesArray, BadgeVariantsArray, BadgeVariantsEnum, BadgesSizesMap, BadgesColorsMap } from '@/components/Badge/BBadge.types'
+import { BadgeColorsArray, BadgeColorsEnum, BadgeSizeEnum, BadgeSizesArray, BadgeVariantsArray, BadgeVariantsEnum, BadgesSizesMap, BadgesColorsMap } from './BBadge.types'
 
 export default defineComponent({
   name: 'BBadge',

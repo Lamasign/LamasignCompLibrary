@@ -1,5 +1,5 @@
-import BTag from '@/components/Tag/BTag.vue'
-import { TagVariantsArray } from '@/components/Tag/BTag.types'
+import BTag from './components/Tag/BTag.vue'
+import { TagVariantsArray } from '../../src/types'
 import { createWrapper } from './utils'
 
 describe('BTag.vue', () => {

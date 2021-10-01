@@ -14,7 +14,7 @@
 
 <script lang="ts">
 import { computed, defineComponent, PropType } from '@vue/composition-api'
-import { DOM_EVENTS_ENUM } from '@/utils'
+import { DOM_EVENTS_ENUM } from '../../utils/'
 import {
   ButtonOutlinedClassesMap,
   ButtonVariantsMap,
@@ -32,7 +32,7 @@ import {
   ButtonTagsArray,
   ButtonOutlinedAndDisabledClassesMap,
   ButtonSizesMap
-} from '@/components/Button/BButton.types'
+} from './BButton.types'
 
 export default defineComponent({
   name: 'BButton',

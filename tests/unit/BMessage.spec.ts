@@ -1,6 +1,6 @@
 import { createWrapper } from './utils'
-import BMessage from '@/components/Message/BMessage.vue'
-import { MessageVariantsArray } from '@/components/Message/BMessage.types'
+import BMessage from './components/Message/BMessage.vue'
+import { MessageVariantsArray } from '../../src/types'
 
 describe('BMessage.vue', () => {
 	it('renders with the correct classes based on the "variant" prop', () => {

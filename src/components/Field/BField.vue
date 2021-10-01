@@ -31,7 +31,7 @@
 <script lang="ts">
 import { computed, defineComponent, PropType, provide } from '@vue/composition-api'
 import { FieldStatusesTypes, FieldStatusesArray, FieldStatusesEnum, FieldMessageStatusesClassesMap, LabelStatusClassesMap, FIELD_STATUS_INJECTION_KEY } from './BField.types'
-import { stringOrNullValidator } from '@/utils'
+import { stringOrNullValidator } from '../../utils/'
 
 export default defineComponent({
   name: 'BField',

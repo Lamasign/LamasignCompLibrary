@@ -22,7 +22,7 @@
 
 <script lang="ts">
 import { defineComponent, PropType, computed } from '@vue/composition-api'
-import { TableColumnVariantsEnum, TableColumnVariantsArray, TableColumnHeaderVariantsMap } from '@/components/Table/BTable.types'
+import { TableColumnVariantsEnum, TableColumnVariantsArray, TableColumnHeaderVariantsMap } from '../../components/Table/BTable.types'
 
 export default defineComponent({
   name: 'BTableColumn',

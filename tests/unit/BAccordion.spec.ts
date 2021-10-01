@@ -1,5 +1,5 @@
-import { AccordionVariantsArray } from './../../src/components/accordion/BAccordion.types';
-import BAccordion from '@/components/accordion/BAccordion.vue'
+import { AccordionVariantsArray } from '../../src/types';
+import BAccordion from './components/accordion/BAccordion.vue'
 import { createWrapper } from './utils'
 
 describe('BAccordion.vue', () => {

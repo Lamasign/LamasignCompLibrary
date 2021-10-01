@@ -15,7 +15,7 @@ import {
 	BadgeVariantsArray,
 	BadgeVariantsEnum,
 	BadgeVariantsMap,
-} from '@/components/Badge/BBadge.types'
+} from './components/Badge/BBadge.types'
 
 import {
 	ButtonSizesEnum,
@@ -28,13 +28,13 @@ import {
 	ButtonVariantsMap,
 	ButtonTagsArray,
 	ButtonTypesArray,
-} from '@/components/Button/BButton.types'
+} from './components/Button/BButton.types'
 
 import {
 	CheckboxVariantsEnum,
 	CheckboxVariantsArray,
 	CheckboxsVariantsMap,
-} from '@/components/Checkbox/BCheckbox.types'
+} from './components/Checkbox/BCheckbox.types'
 
 import {
 	DropdownVariantsEnum,
@@ -42,7 +42,7 @@ import {
 	DropdownDirectionMap,
 	DropdownVariantsArray,
 	DropdownVariantsMap,
-} from '@/components/Dropdown/BDropdown.types'
+} from './components/Dropdown/BDropdown.types'
 
 import {
 	FIELD_STATUS_INJECTION_KEY,
@@ -51,13 +51,13 @@ import {
 	FieldStatusesClassesMap,
 	FieldStatusesTypes,
 	FieldMessageStatusesClassesMap
-} from '@/components/Field/BField.types'
+} from './components/Field/BField.types'
 
 import {
 	InputFileStatusesArray,
 	InputFileStatusesClassesMap,
 	InputFileStatusesEnum
-} from '@/components/FileInput/BFileInput.types'
+} from './components/FileInput/BFileInput.types'
 
 import {
 	InputTypesEnum,
@@ -67,7 +67,7 @@ import {
 	InputStatusesEnum,
 	InputStatusesTypes,
 	InputTypes,
-} from '@/components/Input/BInput.types'
+} from './components/Input/BInput.types'
 
 import {
 	LinkDisabledClassesMap,
@@ -77,26 +77,26 @@ import {
 	LinkVariantsArray,
 	LinkVariantsEnum,
 	LinkVariantsMap,
-} from '@/components/Link/BLink.types'
+} from './components/Link/BLink.types'
 
 import {
 	MessageVariantsArray,
 	MessageVariantsEnum,
 	MessageVariantsMap,
-} from '@/components/Message/BMessage.types'
+} from './components/Message/BMessage.types'
 
 import {
 	NumberInputStatusesArray,
 	NumberInputStatusesClassesMap,
 	NumberInputStatusesEnum,
 	NumberInputStatusesTypes,
-} from '@/components/NumberInput/BNumberInput.types'
+} from './components/NumberInput/BNumberInput.types'
 
 import {
 	SelectColorsEnum,
 	SelectColorsArray,
 	SelectColorsMap,
-} from '@/components/Select/BSelect.types'
+} from './components/Select/BSelect.types'
 
 import {
 	SkeletonVariantsEnum,
@@ -108,33 +108,33 @@ import {
 	SkeletonColorsArray,
 	SkeletonColorsEnum,
 	SkeletonColorsMap,
-} from '@/components/Skeleton/BSkeleton.types'
+} from './components/Skeleton/BSkeleton.types'
 
 import {
 	SwitchVariantsArray,
 	SwitchVariantsEnum,
 	SwitchVariantsMap,
-} from '@/components/Switch/BSwitch.types'
+} from './components/Switch/BSwitch.types'
 
 import {
 	TableColumnHeaderVariantsMap,
 	TableColumnVariantsArray,
 	TableColumnVariantsEnum,
 	TableColumnVariantsMap,
-} from '@/components/Table/BTable.types'
+} from './components/Table/BTable.types'
 
 import {
 	TagVariantsArray,
 	TagVariantsEnum,
 	TagVariantsMap,
 	TagsVariantsMap,
-} from '@/components/Tag/BTag.types'
+} from './components/Tag/BTag.types'
 
 import {
 	ToastVariantsArray,
 	ToastVariantsMap,
 	ToastVariantsEnum,
-} from '@/components/Toast/BToast.types'
+} from './components/Toast/BToast.types'
 
 import {
 	TooltipPositionEnum,
@@ -143,7 +143,7 @@ import {
 	TooltipVariantsArray,
 	TooltipVariantsEnum,
 	TooltipVariantsMap,
-} from '@/components/Tooltip/BTooltip.types'
+} from './components/Tooltip/BTooltip.types'
 
 export {
 	AccordionVariantsArray,

@@ -22,7 +22,7 @@ import {
   ToastVariantsMap,
   ToastVariantsEnum,
   ToastVariantsArray,
-} from '@/components/Toast/BToast.types'
+} from '../../components/Toast/BToast.types'
 
 export default defineComponent({
   name: 'BToast',

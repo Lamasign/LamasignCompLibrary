@@ -100,7 +100,7 @@
 <script lang='ts'>
 import ClickOutside from 'vue-click-outside'
 import { computed, defineComponent, PropType, ref } from '@vue/composition-api'
-import { SelectColorsArray, SelectColorsEnum, SelectColorsMap } from '@/components/Select/BSelect.types'
+import { SelectColorsArray, SelectColorsEnum, SelectColorsMap } from '../../components/Select/BSelect.types'
 
 export default defineComponent({
   name: 'BSelect',

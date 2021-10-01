@@ -1,6 +1,6 @@
 import { createWrapper } from "./utils"
-import BSwitch from '@/components/Switch/BSwitch.vue'
-import { SwitchVariantsArray } from "@/components/Switch/BSwitch.types"
+import BSwitch from './components/Switch/BSwitch.vue'
+import { SwitchVariantsArray } from '../../src/types'
 
 describe('BSwitch.vue', () => {
 	it('renders correct variant based on variant props', () => {

@@ -1,5 +1,5 @@
 import { createWrapper } from "./utils"
-import BCardModal from '@/components/CardModal/BCardModal.vue'
+import BCardModal from './components/CardModal/BCardModal.vue'
 
 describe('BCardModal', () => {
 	it('isActive is false by default', () => {

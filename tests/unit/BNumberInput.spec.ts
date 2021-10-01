@@ -1,8 +1,7 @@
 import { createWrapper } from './utils'
-import BButton from '@/components/Button/BButton.vue'
-import BNumberInput from '@/components/NumberInput/BNumberInput.vue'
-import { FieldStatusesEnum, FIELD_STATUS_INJECTION_KEY } from '@/components/Field/BField.types'
-import { InputStatusesArray } from '@/components/Input/BInput.types'
+import BButton from './components/Button/BButton.vue'
+import BNumberInput from './components/NumberInput/BNumberInput.vue'
+import { FieldStatusesEnum, FIELD_STATUS_INJECTION_KEY, InputStatusesArray } from '../../src/types'
 
 describe('BNumberInput.vue', () => {
 	it('binds value prop to DOM value attribute', async () => {

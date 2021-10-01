@@ -1,7 +1,7 @@
 import { createWrapper } from "./utils"
-import BTable from '@/components/Table/BTable.vue'
-import BTableColumn from '@/components/Table/BTableColumn.vue'
-import { TableColumnVariantsArray } from "@/components/Table/BTable.types"
+import BTable from './components/Table/BTable.vue'
+import BTableColumn from './components/Table/BTableColumn.vue'
+import { TableColumnVariantsArray } from '../../src/types'
 
 describe('Btable folder', () => {
 	it('render comp Btable with correct classes', () => {

@@ -21,8 +21,8 @@ import {
   LinkTags,
   LinkTagsEnum,
   LinkTagsArray
-} from '@/components/Link/BLink.types'
-import { DOM_EVENTS_ENUM } from '@/utils'
+} from './BLink.types'
+import { DOM_EVENTS_ENUM } from '../../utils'
 
 export default defineComponent({
   name: 'TRLink',

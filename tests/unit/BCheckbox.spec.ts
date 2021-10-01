@@ -1,5 +1,5 @@
-import { CheckboxVariantsArray } from '@/components/Checkbox/BCheckbox.types'
-import BCheckbox from '@/components/Checkbox/BCheckbox.vue'
+import { CheckboxVariantsArray } from '../../src/types'
+import BCheckbox from './components/Checkbox/BCheckbox.vue'
 import { createWrapper } from './utils'
 
 describe('Test BCheckbox.vue', () => {

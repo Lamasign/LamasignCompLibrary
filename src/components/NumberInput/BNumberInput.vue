@@ -30,9 +30,9 @@
 import Decimal from 'decimal.js-light'
 import { computed, defineComponent, inject, PropType } from '@vue/composition-api'
 import { NumberInputStatusesClassesMap, NumberInputStatusesEnum } from './BNumberInput.types'
-import { FIELD_STATUS_INJECTION_KEY } from '@/components/Field/BField.types'
-import { DOM_EVENTS_ENUM } from '@/utils'
-import BButton from '@/components/Button/BButton.vue'
+import { FIELD_STATUS_INJECTION_KEY } from '../Field/BField.types'
+import { DOM_EVENTS_ENUM } from '../../utils'
+import BButton from '../../components/Button/BButton.vue'
 /**
  * Form Input with automatic validation (when used with BField).
  */

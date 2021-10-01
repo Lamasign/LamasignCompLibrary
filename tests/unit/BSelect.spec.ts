@@ -1,5 +1,5 @@
-import { SelectColorsArray, SelectColorsEnum } from './../../src/components/Select/BSelect.types'
-import BSelect from '@/components/Select/BSelect.vue'
+import { SelectColorsArray, SelectColorsEnum } from '../../src/types'
+import BSelect from './components/Select/BSelect.vue'
 import { createWrapper } from './utils'
 
 describe('BSelect.vue', () => {

@@ -1,6 +1,6 @@
-import { ToastVariantsArray } from '@/components/Toast/BToast.types'
+import { ToastVariantsArray } from '../../src/types'
 import { createWrapper } from './utils'
-import BToast from '@/components/Toast/BToast.vue'
+import BToast from './components/Toast/BToast.vue'
 
 describe('BToast.vue', () => {
 	it('it renders right classes from props called variant', () => {

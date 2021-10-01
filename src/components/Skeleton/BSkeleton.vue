@@ -24,7 +24,7 @@
 </template>
 <script lang='ts'>
 import { computed, defineComponent, PropType } from '@vue/composition-api'
-import { SkeletonColorsEnum, SkeletonVariantsEnum, SkeletonAnimationsEnum, SkeletonColorsMap, SkeletonVariantsMap, SkeletonAnimationsMap } from '@/components/Skeleton/BSkeleton.types'
+import { SkeletonColorsEnum, SkeletonVariantsEnum, SkeletonAnimationsEnum, SkeletonColorsMap, SkeletonVariantsMap, SkeletonAnimationsMap } from '../../components/Skeleton/BSkeleton.types'
 
 export default defineComponent({
   name: 'BSkeleton',

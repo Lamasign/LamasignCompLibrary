@@ -1,6 +1,6 @@
 import { createWrapper } from './utils'
-import BInput from '@/components/Input/BInput.vue'
-import { InputTypesArray } from '@/components/Input/BInput.types'
+import BInput from './components/Input/BInput.vue'
+import { InputTypesArray } from '../../src/types'
 
 describe('BInput', () => {
 	it('binds value prop to DOM value attribute', async () => {

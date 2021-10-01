@@ -1,6 +1,6 @@
 import { createWrapper } from './utils'
-import BLink from '@/components/Link/BLink.vue'
-import { LinkVariantsArray } from '@/components/Link/BLink.types'
+import BLink from './components/Link/BLink.vue'
+import { LinkVariantsArray } from '../../src/types'
 
 describe('BLink.vue', () => {
 	it('renders the content of its default slot', () => {

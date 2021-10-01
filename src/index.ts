@@ -20,7 +20,7 @@ import BTag from './components/Tag/BTag.vue'
 import BToast from './components/Toast/BToast.vue'
 import BTooltip from './components/Tooltip/BTooltip.vue'
 
-export {
+const components = {
 	BAccordion,
 	BBadge,
 	BButton,
@@ -43,3 +43,4 @@ export {
 	BToast,
 	BTooltip,
 }
+export default components

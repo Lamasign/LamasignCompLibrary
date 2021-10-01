@@ -1,6 +1,6 @@
 {
   "name": "lamasign-components-library",
-  "version": "0.1.1",
+  "version": "0.1.1.2",
   "description": "VueJS UI Components made by Malo Lebrin",
   "author": "Malo Lebrin",
   "license": "Malo Lebrin Copyright",
@@ -8,7 +8,7 @@
   "files": [
     "lib/*"
   ],
-  "types": "",
+  "types": "src/types.ts",
   "main": "dist/BeRightComponentLibrary.umd.min.js",
   "unpkg": "dist/BeRightComponentLibrary.umd.min.js",
   "jsdelivr": "dist/BeRightComponentLibrary.umd.min.js",

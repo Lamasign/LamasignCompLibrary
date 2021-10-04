@@ -6,7 +6,7 @@
   "license": "Malo Lebrin Copyright",
   "private": false,
   "files": [
-    "dist/*",
+    "lib/*",
     "src/*",
     "*.json",
     "*.ts"

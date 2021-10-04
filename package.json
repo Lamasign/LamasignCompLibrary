@@ -1,6 +1,6 @@
 {
   "name": "lamasign-components-library",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "VueJS UI Components made by Malo Lebrin",
   "author": "Malo Lebrin",
   "license": "Malo Lebrin Copyright",
@@ -12,11 +12,11 @@
     "*.ts"
   ],
   "types": "src/types.ts",
-  "main": "src/index.ts",
+  "main": "src/main.ts",
   "unpkg": "dist/BeRightComponentLibrary.umd.min.js",
   "jsdelivr": "dist/BeRightComponentLibrary.umd.min.js",
   "scripts": {
-    "build": "vue-cli-service build --target lib --name BeRightComponentLibrary src/index.ts",
+    "build": "vue-cli-service build --target lib --name BeRightComponentLibrary src/main.ts",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "dev": "vue-cli-service serve",

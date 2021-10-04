@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueCompositionAPI from '@vue/composition-api'
 import './assets/tailwind.css'
-import components from './index'
+import components from './components/index'
 Vue.config.productionTip = false
 
 Vue.use(VueCompositionAPI)
@@ -10,16 +10,6 @@ Vue.use(VueCompositionAPI)
 new Vue({
 	render: h => h(App),
 }).$mount('#app')
-
-// const ComponentLibrary = {
-// 	install(Vue, options = {}) {
-// 		for (const componentName in components) {
-// 			const component = components[componentName]
-// 			Vue.component(component.name, component)
-// 		}
-// 	}
-// }
-// export default ComponentLibrary
 
 function installLibrary() {
 
@@ -30,4 +20,6 @@ function installLibrary() {
 
 Vue.use(installLibrary)
 
-// export default installLibrary
+export default installLibrary
+export * from './components'
+export * from './utils'
